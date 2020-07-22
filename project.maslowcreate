@@ -591,28 +591,29 @@
                             ]
                         },
                         {
-                            "atomType": "Assembly",
-                            "name": "Assembly",
-                            "x": 0.5065885797950219,
-                            "y": 0.2298850574712644,
-                            "uniqueID": 646631,
+                            "atomType": "GitHubMolecule",
+                            "name": "Rotational Pattern",
+                            "x": 0.4370424597364568,
+                            "y": 0.3563218390804597,
+                            "uniqueID": 929848,
+                            "projectID": "209940609",
                             "ioValues": [
                                 {
-                                    "name": "3D shape 1",
+                                    "name": "Angle",
                                     "ioValue": 10
                                 },
                                 {
-                                    "name": "3D shape 2",
-                                    "ioValue": 10
+                                    "name": "Number",
+                                    "ioValue": 18
                                 }
                             ]
                         },
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.32210834553440704,
-                            "y": 0.475095785440613,
-                            "uniqueID": 412714,
+                            "x": 0.6068814055636896,
+                            "y": 0.47126436781609193,
+                            "uniqueID": 899375,
                             "ioValues": [
                                 {
                                     "name": "x-axis degrees",
@@ -624,7 +625,7 @@
                                 },
                                 {
                                     "name": "z-axis degrees",
-                                    "ioValue": 10
+                                    "ioValue": -90
                                 }
                             ]
                         },
@@ -639,17 +640,10 @@
                     "allConnectors": [
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 877839,
-                            "ap2ID": 412714
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "3D shape 1",
+                            "ap2Name": "Geometry",
                             "ap2Primary": false,
                             "ap1ID": 877839,
-                            "ap2ID": 646631
+                            "ap2ID": 929848
                         },
                         {
                             "ap1Name": "geometry",
@@ -666,17 +660,17 @@
                             "ap2ID": 575019
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 646631
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 929848,
+                            "ap2ID": 899375
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "3D shape 2",
+                            "ap2Name": "number or geometry",
                             "ap2Primary": false,
-                            "ap1ID": 412714,
-                            "ap2ID": 646631
+                            "ap1ID": 899375
                         }
                     ],
                     "fileTypeVersion": 1
@@ -844,15 +838,15 @@
                                     "ioValue": ""
                                 },
                                 {
+                                    "name": "3D shape 3",
+                                    "ioValue": 10
+                                },
+                                {
                                     "name": "3D shape 1",
                                     "ioValue": 10
                                 },
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 3",
                                     "ioValue": 10
                                 }
                             ],
