@@ -17,6 +17,19 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.04026354319180088,
+                    "y": 0.3409961685823755,
+                    "uniqueID": 125568,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 40
+                        }
+                    ]
+                },
+                {
                     "atomType": "ShrinkWrap",
                     "name": "Shrink Wrap",
                     "x": 0.2320644216691069,
@@ -28,32 +41,19 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 1",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 2",
                             "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 4",
-                            "ioValue": 10
                         }
                     ],
                     "closedSelection": 0
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.048316251830161056,
-                    "y": 0.35249042145593873,
-                    "uniqueID": 125568,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 50
-                        }
-                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -267,13 +267,6 @@
             "allConnectors": [
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 893620,
-                    "ap2ID": 512313
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 125568,
@@ -285,6 +278,13 @@
                     "ap2Primary": false,
                     "ap1ID": 125568,
                     "ap2ID": 893620
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 893620,
+                    "ap2ID": 512313
                 },
                 {
                     "ap1Name": "geometry",
@@ -795,15 +795,15 @@
                                             "ioValue": ""
                                         },
                                         {
+                                            "name": "3D shape 4",
+                                            "ioValue": 10
+                                        },
+                                        {
                                             "name": "3D shape 1",
                                             "ioValue": 10
                                         },
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": 10
-                                        },
-                                        {
-                                            "name": "3D shape 4",
                                             "ioValue": 10
                                         }
                                     ],
@@ -1678,8 +1678,8 @@
                         {
                             "atomType": "ShrinkWrap",
                             "name": "Shrink Wrap",
-                            "x": 0.3660322108345534,
-                            "y": 0.30268199233716475,
+                            "x": 0.36163982430453884,
+                            "y": 0.3218390804597701,
                             "uniqueID": 448255,
                             "ioValues": [
                                 {
@@ -1687,15 +1687,15 @@
                                     "ioValue": ""
                                 },
                                 {
+                                    "name": "3D shape 3",
+                                    "ioValue": 10
+                                },
+                                {
                                     "name": "3D shape 1",
                                     "ioValue": 10
                                 },
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 3",
                                     "ioValue": 10
                                 }
                             ],
@@ -1742,15 +1742,15 @@
                                     "ioValue": ""
                                 },
                                 {
+                                    "name": "3D shape 3",
+                                    "ioValue": 10
+                                },
+                                {
                                     "name": "3D shape 1",
                                     "ioValue": 10
                                 },
                                 {
                                     "name": "3D shape 2",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 3",
                                     "ioValue": 10
                                 }
                             ],
@@ -2419,8 +2419,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.5453879941434846,
-                    "y": 0.1992337164750958,
+                    "x": 0.5446559297218155,
+                    "y": 0.21839080459770116,
                     "uniqueID": 295244,
                     "ioValues": [
                         {
@@ -2473,10 +2473,30 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Linear Bearing",
+                    "x": 0.5519765739385066,
+                    "y": 0.6781609195402298,
+                    "uniqueID": 677009,
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.9853587115666179,
+                            "y": 0.5,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.6756954612005857,
-                    "y": 0.36015325670498083,
+                    "x": 0.8038067349926794,
+                    "y": 0.49808429118773945,
                     "uniqueID": 279410,
                     "ioValues": [
                         {
