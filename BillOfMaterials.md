@@ -2,6 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|Leadscrew Nut|2|$10.00|https://www.amazon.com/Drillpro-400mm-Lead-Screw-Printer/dp/B017AR5QBS|
+|Total: |2|$10.00| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $30.00
