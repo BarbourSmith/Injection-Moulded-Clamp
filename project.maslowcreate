@@ -1566,12 +1566,33 @@
                             "projectID": "209940609",
                             "ioValues": [
                                 {
+                                    "name": "Geometry",
+                                    "ioValue": 10
+                                },
+                                {
                                     "name": "Angle",
                                     "ioValue": 10
                                 },
                                 {
                                     "name": "Number",
                                     "ioValue": 18
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.27849355797819625,
+                            "y": 0.7088122605363985,
+                            "uniqueID": 628419,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 10
                                 }
                             ]
                         },
@@ -1611,13 +1632,6 @@
                     "allConnectors": [
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "Geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 877839,
-                            "ap2ID": 929848
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": 575019,
@@ -1636,12 +1650,6 @@
                             "ap2Primary": true,
                             "ap1ID": 929848,
                             "ap2ID": 899375
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 899375
                         }
                     ],
                     "fileTypeVersion": 1
