@@ -1328,8 +1328,8 @@
         {
             "atomType": "Molecule",
             "name": "Strength Grid",
-            "x": 0.13543191800878476,
-            "y": 0.6130268199233716,
+            "x": 0.13323572474377746,
+            "y": 0.6053639846743295,
             "uniqueID": 510089,
             "ioValues": [],
             "topLevel": false,
@@ -1658,33 +1658,16 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 2",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 3",
                             "ioValue": 10
                         }
                     ]
                 },
                 {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.5754026354319179,
-                    "y": 0.3563218390804597,
-                    "uniqueID": 170591,
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": ""
-                        }
-                    ]
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Profile",
-                    "x": 0.18228404099560763,
-                    "y": 0.6590038314176245,
+                    "x": 0.17935578330893118,
+                    "y": 0.632183908045977,
                     "uniqueID": 450999,
                     "ioValues": [],
                     "topLevel": false,
@@ -1956,6 +1939,14 @@
                     "fileTypeVersion": 1
                 },
                 {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.5768667642752562,
+                    "y": 0.3486590038314176,
+                    "uniqueID": 170591,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Constraints",
                     "x": 0.43557833089311865,
@@ -2028,7 +2019,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 68
+                                    "ioValue": 68.75
                                 }
                             ]
                         },
@@ -2305,10 +2296,6 @@
                     "uniqueID": 501535,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "tag",
                             "ioValue": "Plastic"
                         }
@@ -2331,13 +2318,6 @@
                     "ap2ID": 765549
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 834653,
-                    "ap2ID": 765549
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
@@ -2345,18 +2325,18 @@
                     "ap2ID": 170591
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 170591,
-                    "ap2ID": 501535
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 450999,
                     "ap2ID": 765549
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 170591,
+                    "ap2ID": 501535
                 },
                 {
                     "ap1Name": "Geometry",
@@ -2381,10 +2361,6 @@
             "y": 0.4789272030651341,
             "uniqueID": 728513,
             "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
                 {
                     "name": "x-axis degrees",
                     "ioValue": 0
