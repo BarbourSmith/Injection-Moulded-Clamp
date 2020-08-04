@@ -1544,6 +1544,10 @@
                             "uniqueID": 899375,
                             "ioValues": [
                                 {
+                                    "name": "geometry",
+                                    "ioValue": ""
+                                },
+                                {
                                     "name": "x-axis degrees",
                                     "ioValue": 0
                                 },
@@ -1630,7 +1634,12 @@
                     "x": 0.5754026354319179,
                     "y": 0.3563218390804597,
                     "uniqueID": 170591,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": ""
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -2257,6 +2266,10 @@
                     "uniqueID": 501535,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "tag",
                             "ioValue": "Plastic"
                         }
@@ -2329,6 +2342,10 @@
             "y": 0.4789272030651341,
             "uniqueID": 728513,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
                 {
                     "name": "x-axis degrees",
                     "ioValue": 0
