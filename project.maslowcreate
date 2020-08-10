@@ -1373,14 +1373,6 @@
                             "uniqueID": 965315,
                             "ioValues": [
                                 {
-                                    "name": "3D shape 1",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 2",
-                                    "ioValue": 10
-                                },
-                                {
                                     "name": "3D shape 3",
                                     "ioValue": 10
                                 }
@@ -1461,13 +1453,6 @@
                     ],
                     "allConnectors": [
                         {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "3D shape 1",
-                            "ap2Primary": false,
-                            "ap1ID": 443913,
-                            "ap2ID": 965315
-                        },
-                        {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
@@ -1486,13 +1471,6 @@
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
                             "ap1ID": 209496
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "3D shape 2",
-                            "ap2Primary": false,
-                            "ap1ID": 390176,
-                            "ap2ID": 965315
                         }
                     ],
                     "fileTypeVersion": 1
