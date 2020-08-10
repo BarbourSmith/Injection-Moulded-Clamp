@@ -1528,7 +1528,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": -100
+                                    "ioValue": -102
                                 },
                                 {
                                     "name": "yDist",
@@ -1576,33 +1576,12 @@
                             ]
                         },
                         {
-                            "atomType": "Rectangle",
-                            "name": "Rectangle",
-                            "x": 0.27849355797819625,
-                            "y": 0.7088122605363985,
-                            "uniqueID": 628419,
-                            "ioValues": [
-                                {
-                                    "name": "x length",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "y length",
-                                    "ioValue": 10
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Rotate",
                             "name": "Rotate",
                             "x": 0.6068814055636896,
                             "y": 0.47126436781609193,
                             "uniqueID": 899375,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
                                 {
                                     "name": "x-axis degrees",
                                     "ioValue": 0
@@ -1628,7 +1607,7 @@
                     "allConnectors": [
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "Geometry",
+                            "ap2Name": "Shape",
                             "ap2Primary": false,
                             "ap1ID": 877839,
                             "ap2ID": 929848
@@ -1653,6 +1632,12 @@
                             "ap2Primary": true,
                             "ap1ID": 929848,
                             "ap2ID": 899375
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 899375
                         }
                     ],
                     "fileTypeVersion": 1
@@ -2643,6 +2628,10 @@
                             "projectID": "209940609",
                             "ioValues": [
                                 {
+                                    "name": "Shape",
+                                    "ioValue": 10
+                                },
+                                {
                                     "name": "Angle",
                                     "ioValue": 90
                                 },
@@ -2694,13 +2683,6 @@
                             "ap2Primary": true,
                             "ap1ID": 374497,
                             "ap2ID": 606880
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "Geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 606880,
-                            "ap2ID": 144370
                         },
                         {
                             "ap1Name": "Geometry",
