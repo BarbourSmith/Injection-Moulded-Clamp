@@ -1375,6 +1375,14 @@
                                 {
                                     "name": "3D shape 3",
                                     "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 4",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 5",
+                                    "ioValue": 10
                                 }
                             ]
                         },
@@ -1453,6 +1461,13 @@
                     ],
                     "allConnectors": [
                         {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "3D shape 4",
+                            "ap2Primary": false,
+                            "ap1ID": 443913,
+                            "ap2ID": 965315
+                        },
+                        {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
@@ -1471,6 +1486,13 @@
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
                             "ap1ID": 209496
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "3D shape 5",
+                            "ap2Primary": false,
+                            "ap1ID": 390176,
+                            "ap2ID": 965315
                         }
                     ],
                     "fileTypeVersion": 1
@@ -1544,10 +1566,6 @@
                             "projectID": "209940609",
                             "ioValues": [
                                 {
-                                    "name": "Geometry",
-                                    "ioValue": 10
-                                },
-                                {
                                     "name": "Angle",
                                     "ioValue": 10
                                 },
@@ -1608,6 +1626,13 @@
                         }
                     ],
                     "allConnectors": [
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 877839,
+                            "ap2ID": 929848
+                        },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
@@ -2116,7 +2141,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 130
+                                    "ioValue": 130.1
                                 }
                             ]
                         },
