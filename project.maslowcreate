@@ -1722,8 +1722,8 @@
         {
             "atomType": "Molecule",
             "name": "Bushing",
-            "x": 0.12152269399707176,
-            "y": 0.42528735632183906,
+            "x": 0.11127379209370425,
+            "y": 0.42911877394636017,
             "uniqueID": 692836,
             "ioValues": [],
             "topLevel": false,
@@ -3054,5 +3054,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "3.4"
+    "circleSegmentSize": "0.4"
 }
