@@ -340,8 +340,8 @@
         {
             "atomType": "Molecule",
             "name": "Clamps",
-            "x": 0.13689604685212298,
-            "y": 0.4367816091954023,
+            "x": 0.1376281112737921,
+            "y": 0.4137931034482759,
             "uniqueID": 760822,
             "ioValues": [],
             "topLevel": false,
@@ -349,8 +349,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Pins",
-                    "x": 0.15300146412884333,
-                    "y": 0.2681992337164751,
+                    "x": 0.1595900439238653,
+                    "y": 0.26436781609195403,
                     "uniqueID": 116386,
                     "ioValues": [],
                     "topLevel": false,
@@ -1303,8 +1303,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.3103953147877013,
-            "y": 0.36015325670498083,
+            "x": 0.31551976573938506,
+            "y": 0.39080459770114945,
             "uniqueID": 805986,
             "ioValues": [
                 {
@@ -1998,6 +1998,19 @@
                                     ]
                                 },
                                 {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.055636896046852125,
+                                    "y": 0.7701149425287357,
+                                    "uniqueID": 814874,
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 32
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Translate",
                                     "name": "Translate",
                                     "x": 0.36456808199121526,
@@ -2015,19 +2028,6 @@
                                         {
                                             "name": "zDist",
                                             "ioValue": 0
-                                        }
-                                    ]
-                                },
-                                {
-                                    "atomType": "Circle",
-                                    "name": "Circle",
-                                    "x": 0.0534407027818448,
-                                    "y": 0.7816091954022989,
-                                    "uniqueID": 814874,
-                                    "ioValues": [
-                                        {
-                                            "name": "diameter",
-                                            "ioValue": 32
                                         }
                                     ]
                                 },
@@ -2091,7 +2091,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 40
+                                            "ioValue": 36
                                         }
                                     ]
                                 },
@@ -2189,17 +2189,17 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "3D shape 2",
-                                    "ap2Primary": false,
-                                    "ap1ID": 968073,
-                                    "ap2ID": 167233
-                                },
-                                {
-                                    "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
                                     "ap1ID": 814874,
                                     "ap2ID": 217409
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 2",
+                                    "ap2Primary": false,
+                                    "ap1ID": 968073,
+                                    "ap2ID": 167233
                                 },
                                 {
                                     "ap1Name": "geometry",
