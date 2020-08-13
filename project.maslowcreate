@@ -1874,20 +1874,45 @@
                     "ioValue": 10
                 },
                 {
-                    "name": "3D shape 3",
-                    "ioValue": 10
-                },
-                {
                     "name": "3D shape 4",
                     "ioValue": 10
                 }
             ]
         },
         {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.34773060029282576,
+            "y": 0.5517241379310345,
+            "uniqueID": 281555,
+            "ioValues": []
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.4904831625183016,
+            "y": 0.4597701149425288,
+            "uniqueID": 169647,
+            "ioValues": [
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 180
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 180
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Leadscrew Nut",
-            "x": 0.11566617862371889,
-            "y": 0.6245210727969348,
+            "x": 0.11639824304538798,
+            "y": 0.6666666666666666,
             "uniqueID": 536823,
             "ioValues": [],
             "topLevel": false,
@@ -1948,27 +1973,6 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.49487554904831627,
-            "y": 0.4482758620689655,
-            "uniqueID": 169647,
-            "ioValues": [
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 180
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 180
-                }
-            ]
-        },
-        {
             "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.6427525622254758,
@@ -2017,17 +2021,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
             "ap1ID": 976903,
-            "ap2ID": 169647
+            "ap2ID": 281555
         },
         {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 3",
-            "ap2Primary": false,
-            "ap1ID": 536823,
-            "ap2ID": 976903
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 281555,
+            "ap2ID": 169647
         },
         {
             "ap1Name": "geometry",
@@ -2035,6 +2039,13 @@
             "ap2Primary": false,
             "ap1ID": 169647,
             "ap2ID": 512119
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 536823,
+            "ap2ID": 281555
         },
         {
             "ap1Name": "geometry",
