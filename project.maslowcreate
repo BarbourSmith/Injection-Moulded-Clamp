@@ -2639,10 +2639,6 @@
                             "projectID": "209940609",
                             "ioValues": [
                                 {
-                                    "name": "Shape",
-                                    "ioValue": 10
-                                },
-                                {
                                     "name": "Angle",
                                     "ioValue": 90
                                 },
@@ -2694,6 +2690,13 @@
                             "ap2Primary": true,
                             "ap1ID": 374497,
                             "ap2ID": 606880
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Shape",
+                            "ap2Primary": false,
+                            "ap1ID": 606880,
+                            "ap2ID": 144370
                         },
                         {
                             "ap1Name": "Geometry",
