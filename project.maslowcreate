@@ -2486,7 +2486,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 20.25
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -2545,7 +2545,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -25.5
+                            "ioValue": -15.5
                         }
                     ]
                 },
@@ -2725,7 +2725,7 @@
                     "allAtoms": [
                         {
                             "atomType": "Molecule",
-                            "name": "Molecule",
+                            "name": "Nut and bolts",
                             "x": 0.0841874084919473,
                             "y": 0.20689655172413796,
                             "uniqueID": 460296,
@@ -2953,7 +2953,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": -31
+                                    "ioValue": -33
                                 },
                                 {
                                     "name": "yDist",
@@ -3064,7 +3064,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 25.5
+                                    "ioValue": 15.5
                                 }
                             ]
                         },
@@ -3077,7 +3077,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": -31
+                                    "ioValue": -33
                                 },
                                 {
                                     "name": "yDist",
