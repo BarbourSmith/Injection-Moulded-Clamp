@@ -2102,10 +2102,6 @@
             "uniqueID": 169647,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
                     "name": "x-axis degrees",
                     "ioValue": 180
                 },
@@ -2195,10 +2191,6 @@
                     "y": 0.2375478927203065,
                     "uniqueID": 823619,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -2358,12 +2350,7 @@
             "x": 0.3916544655929722,
             "y": 0.6666666666666666,
             "uniqueID": 281555,
-            "ioValues": [
-                {
-                    "name": "geometry2",
-                    "ioValue": ""
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Assembly",
