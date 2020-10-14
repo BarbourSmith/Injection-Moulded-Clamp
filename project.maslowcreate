@@ -3118,6 +3118,36 @@
                             ]
                         },
                         {
+                            "atomType": "GitHubMolecule",
+                            "name": "M3 Locknut",
+                            "x": 0.13030746705710103,
+                            "y": 0.7203065134099617,
+                            "uniqueID": 374660,
+                            "projectID": "278794657",
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Translate",
+                            "name": "Translate",
+                            "x": 0.42313323572474376,
+                            "y": 0.7318007662835249,
+                            "uniqueID": 112641,
+                            "ioValues": [
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": -3
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Output",
                             "name": "Output",
                             "x": 0.9853587115666179,
@@ -3145,6 +3175,13 @@
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
                             "ap1ID": 270206
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 374660,
+                            "ap2ID": 112641
                         }
                     ],
                     "fileTypeVersion": 1
