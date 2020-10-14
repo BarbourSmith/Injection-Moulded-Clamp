@@ -3343,14 +3343,81 @@
                     ]
                 },
                 {
+                    "atomType": "Union",
+                    "name": "Union",
+                    "x": 0.8103953147877013,
+                    "y": 0.6436781609195402,
+                    "uniqueID": 158457,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Molecule",
-                    "name": "Molecule",
+                    "name": "Bearing Clamp Bolts",
                     "x": 0.6764275256222548,
                     "y": 0.8390804597701149,
                     "uniqueID": 694361,
                     "ioValues": [],
                     "topLevel": false,
                     "allAtoms": [
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.16617862371888725,
+                            "y": 0.5019157088122606,
+                            "uniqueID": 588388,
+                            "ioValues": [
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 90
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Bolt",
+                            "x": 0.013333333333333334,
+                            "y": 0.5823754789272031,
+                            "uniqueID": 564844,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Translate",
+                            "name": "Translate",
+                            "x": 0.35212298682284043,
+                            "y": 0.6436781609195402,
+                            "uniqueID": 587125,
+                            "ioValues": [
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 120
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ]
+                        },
                         {
                             "atomType": "Output",
                             "name": "Output",
@@ -3359,7 +3426,28 @@
                             "ioValues": []
                         }
                     ],
-                    "allConnectors": [],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 588388,
+                            "ap2ID": 587125
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 564844,
+                            "ap2ID": 588388
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 587125
+                        }
+                    ],
                     "fileTypeVersion": 1
                 },
                 {
@@ -3498,6 +3586,13 @@
                     "ap2ID": 793796
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "Bolt",
+                    "ap2Primary": false,
+                    "ap1ID": 275864,
+                    "ap2ID": 694361
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 10",
                     "ap2Primary": false,
@@ -3549,6 +3644,13 @@
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
+                    "ap1ID": 480502,
+                    "ap2ID": 158457
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
                     "ap1ID": 793796,
                     "ap2ID": 480502
                 },
@@ -3579,6 +3681,13 @@
                     "ap2Primary": false,
                     "ap1ID": 309250,
                     "ap2ID": 480502
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 694361,
+                    "ap2ID": 158457
                 }
             ],
             "fileTypeVersion": 1
