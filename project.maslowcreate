@@ -1174,7 +1174,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 2
+                                    "ioValue": 3
                                 },
                                 {
                                     "name": "y length",
@@ -1466,7 +1466,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 50
+                                    "ioValue": 49.5
                                 },
                                 {
                                     "name": "yDist",
