@@ -2028,13 +2028,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.7115666178623719,
-                    "y": 0.8237547892720306,
+                    "x": 0.7079062957540263,
+                    "y": 0.8199233716475096,
                     "uniqueID": 548146,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 20
+                            "ioValue": 50
                         },
                         {
                             "name": "yDist",
