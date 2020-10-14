@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Bracing and Outline",
-            "x": 0.1259150805270864,
-            "y": 0.22605363984674332,
+            "x": 0.12152269399707176,
+            "y": 0.20689655172413796,
             "uniqueID": 485073,
             "ioValues": [],
             "topLevel": false,
@@ -1126,8 +1126,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.7620790629575402,
-                    "y": 0.24137931034482757,
+                    "x": 0.7554904831625183,
+                    "y": 0.26053639846743293,
                     "uniqueID": 411134,
                     "ioValues": []
                 },
@@ -1249,17 +1249,10 @@
                     "fileTypeVersion": 1
                 },
                 {
-                    "atomType": "Box",
-                    "name": "Box",
-                    "x": 0.9582723279648608,
-                    "y": 0.1417624521072797,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Cut Away",
-                    "x": 0.6105417276720351,
-                    "y": 0.7892720306513409,
+                    "x": 0.6076134699853587,
+                    "y": 0.7777777777777777,
                     "uniqueID": 740278,
                     "ioValues": [],
                     "topLevel": false,
