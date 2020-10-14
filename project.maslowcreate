@@ -1129,7 +1129,16 @@
                     "x": 0.7620790629575402,
                     "y": 0.24137931034482757,
                     "uniqueID": 411134,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "geometry1",
+                            "ioValue": ""
+                        }
+                    ]
                 },
                 {
                     "atomType": "Union",
@@ -2102,6 +2111,10 @@
             "uniqueID": 169647,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
                     "name": "x-axis degrees",
                     "ioValue": 180
                 },
@@ -2191,6 +2204,10 @@
                     "y": 0.2375478927203065,
                     "uniqueID": 823619,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -2367,7 +2384,16 @@
             "x": 0.3916544655929722,
             "y": 0.6666666666666666,
             "uniqueID": 281555,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": ""
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": ""
+                }
+            ]
         },
         {
             "atomType": "Molecule",
