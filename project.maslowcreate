@@ -1927,6 +1927,19 @@
                     ]
                 },
                 {
+                    "atomType": "Tag",
+                    "name": "Add Tag",
+                    "x": 0.5578330893118594,
+                    "y": 0.1717557251908397,
+                    "uniqueID": 525945,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Plastic"
+                        }
+                    ]
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 0.2752562225475842,
@@ -1940,15 +1953,28 @@
                     ]
                 },
                 {
-                    "atomType": "Tag",
-                    "name": "Add Tag",
-                    "x": 0.6361639824304539,
-                    "y": 0.15708812260536398,
-                    "uniqueID": 525945,
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.38726207906295756,
+                    "y": 0.6183206106870228,
+                    "uniqueID": 488009,
+                    "ioValues": [],
+                    "selectedColorIndex": "12"
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.6273792093704246,
+                    "y": 0.4198473282442748,
+                    "uniqueID": 313688,
                     "ioValues": [
                         {
-                            "name": "tag",
-                            "ioValue": "Plastic"
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -1970,32 +1996,6 @@
                         {
                             "name": "zDist",
                             "ioValue": -12.5
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.4260614934114202,
-                    "y": 0.7318007662835249,
-                    "uniqueID": 488009,
-                    "ioValues": [],
-                    "selectedColorIndex": "12"
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.643484626647145,
-                    "y": 0.5900383141762452,
-                    "uniqueID": 313688,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 2",
-                            "ioValue": 10
                         }
                     ]
                 },
@@ -2085,13 +2085,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 711122,
-                    "ap2ID": 488009
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 525945,
@@ -2099,9 +2092,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 274919
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 711122,
+                    "ap2ID": 488009
                 },
                 {
                     "ap1Name": "geometry",
@@ -2109,6 +2103,12 @@
                     "ap2Primary": false,
                     "ap1ID": 488009,
                     "ap2ID": 313688
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 274919
                 },
                 {
                     "ap1Name": "geometry",
