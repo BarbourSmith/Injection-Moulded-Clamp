@@ -125,8 +125,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Arms",
-                    "x": 0.23718887262079066,
-                    "y": 0.39463601532567044,
+                    "x": 0.24158125915080525,
+                    "y": 0.40229885057471265,
                     "uniqueID": 800487,
                     "ioValues": [],
                     "topLevel": false,
@@ -196,7 +196,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 30
+                                            "ioValue": 40
                                         }
                                     ]
                                 },
@@ -306,7 +306,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 26
+                                            "ioValue": 36
                                         }
                                     ]
                                 },
