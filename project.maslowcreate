@@ -3385,7 +3385,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 9
                                 }
                             ]
                         },
@@ -3477,7 +3477,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -5
+                                    "ioValue": -9
                                 }
                             ]
                         },
@@ -3496,12 +3496,6 @@
                             "ap2Primary": false,
                             "ap1ID": 147197,
                             "ap2ID": 217116
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 587125
                         },
                         {
                             "ap1Name": "geometry",
@@ -3537,6 +3531,12 @@
                             "ap2Primary": true,
                             "ap1ID": 564844,
                             "ap2ID": 588388
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 217116
                         },
                         {
                             "ap1Name": "geometry",
