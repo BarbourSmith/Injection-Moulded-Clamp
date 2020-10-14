@@ -2026,6 +2026,27 @@
                     ]
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.7115666178623719,
+                    "y": 0.8237547892720306,
+                    "uniqueID": 548146,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -2040,37 +2061,12 @@
                     "uniqueID": 908969,
                     "ioValues": [
                         {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 3",
                             "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.7232796486090777,
-                    "y": 0.8773946360153256,
-                    "uniqueID": 548146,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
                         },
                         {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
+                            "name": "3D shape 4",
+                            "ioValue": 10
                         }
                     ]
                 }
@@ -2168,18 +2164,24 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 879768,
-                    "ap2ID": 908969
+                    "ap2ID": 548146
                 },
-                null,
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 277427,
                     "ap2ID": 879768
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 548146,
+                    "ap2ID": 908969
                 }
             ],
             "fileTypeVersion": 1
