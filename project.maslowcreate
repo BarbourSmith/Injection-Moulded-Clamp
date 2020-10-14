@@ -125,8 +125,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Arms",
-                    "x": 0.23572474377745242,
-                    "y": 0.4061302681992337,
+                    "x": 0.23718887262079066,
+                    "y": 0.39463601532567044,
                     "uniqueID": 800487,
                     "ioValues": [],
                     "topLevel": false,
@@ -963,8 +963,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Ring Braces",
-                    "x": 0.2459736456808199,
-                    "y": 0.5517241379310345,
+                    "x": 0.23279648609077597,
+                    "y": 0.6053639846743295,
                     "uniqueID": 730201,
                     "ioValues": [],
                     "topLevel": false,
@@ -1126,8 +1126,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.7554904831625183,
-                    "y": 0.26053639846743293,
+                    "x": 0.7503660322108345,
+                    "y": 0.2681992337164751,
                     "uniqueID": 411134,
                     "ioValues": []
                 },
@@ -1178,7 +1178,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 124
+                                    "ioValue": 134
                                 }
                             ]
                         },
@@ -1195,7 +1195,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 0
+                                    "ioValue": 2
                                 },
                                 {
                                     "name": "zDist",
@@ -1251,8 +1251,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Cut Away",
-                    "x": 0.6076134699853587,
-                    "y": 0.7777777777777777,
+                    "x": 0.6127379209370425,
+                    "y": 0.7586206896551725,
                     "uniqueID": 740278,
                     "ioValues": [],
                     "topLevel": false,
@@ -1296,7 +1296,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 200
+                                    "ioValue": 250
                                 }
                             ]
                         },
@@ -1379,8 +1379,8 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.6120058565153733,
-                            "y": 0.4176245210727969,
+                            "x": 0.6105417276720351,
+                            "y": 0.42911877394636017,
                             "uniqueID": 296855,
                             "ioValues": []
                         },
