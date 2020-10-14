@@ -2026,49 +2026,11 @@
                     ]
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.7079062957540263,
-                    "y": 0.8199233716475096,
-                    "uniqueID": 548146,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 40
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "ioValues": []
-                },
-                {
-                    "atomType": "Union",
-                    "name": "Union",
-                    "x": 0.8609077598828697,
-                    "y": 0.7011494252873564,
-                    "uniqueID": 908969,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 3",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 4",
-                            "ioValue": 10
-                        }
-                    ]
                 }
             ],
             "allConnectors": [
@@ -2119,21 +2081,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 517497,
-                    "ap2ID": 274919
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 517497,
                     "ap2ID": 525945
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": 517497,
-                    "ap2ID": 908969
                 },
                 {
                     "ap1Name": "geometry",
@@ -2174,14 +2122,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 879768,
-                    "ap2ID": 548146
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 4",
-                    "ap2Primary": false,
-                    "ap1ID": 548146,
-                    "ap2ID": 908969
+                    "ap2ID": 274919
                 }
             ],
             "fileTypeVersion": 1
