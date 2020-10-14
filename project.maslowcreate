@@ -2000,6 +2000,19 @@
                     ]
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.6295754026354319,
+                    "y": 0.8237547892720306,
+                    "uniqueID": 277427,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 32
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
