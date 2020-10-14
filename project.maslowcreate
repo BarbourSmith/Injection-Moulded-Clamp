@@ -1728,7 +1728,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 3
+                                    "ioValue": 5
                                 },
                                 {
                                     "name": "y length",
@@ -3143,7 +3143,24 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -3
+                                    "ioValue": -7
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Union",
+                            "name": "Union",
+                            "x": 0.6727672035139092,
+                            "y": 0.6475095785440613,
+                            "uniqueID": 858038,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": 10
                                 }
                             ]
                         },
@@ -3172,9 +3189,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
+                            "ap2Name": "3D shape 2",
                             "ap2Primary": false,
-                            "ap1ID": 270206
+                            "ap1ID": 270206,
+                            "ap2ID": 858038
                         },
                         {
                             "ap1Name": "Geometry",
@@ -3182,6 +3200,19 @@
                             "ap2Primary": true,
                             "ap1ID": 374660,
                             "ap2ID": 112641
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": 112641,
+                            "ap2ID": 858038
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 858038
                         }
                     ],
                     "fileTypeVersion": 1
