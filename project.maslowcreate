@@ -2473,10 +2473,6 @@
                     "uniqueID": 274919,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": -100
                         },
@@ -3023,10 +3019,6 @@
                     "uniqueID": 261703,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -3069,10 +3061,6 @@
                     "uniqueID": 374328,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -3093,10 +3081,6 @@
                     "y": 0.15708812260536398,
                     "uniqueID": 709482,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -3275,10 +3259,6 @@
                     "uniqueID": 151577,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -3299,10 +3279,6 @@
                     "y": 0.31800766283524906,
                     "uniqueID": 691020,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -3325,10 +3301,6 @@
                     "uniqueID": 413318,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -3350,10 +3322,6 @@
                     "uniqueID": 822356,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -3374,10 +3342,6 @@
                     "y": 0.5172413793103449,
                     "uniqueID": 596665,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -3507,10 +3471,6 @@
                     "uniqueID": 538374,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -3574,10 +3534,6 @@
                     "uniqueID": 309250,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -3625,10 +3581,6 @@
                             "uniqueID": 147197,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
-                                {
                                     "name": "xDist",
                                     "ioValue": 0
                                 },
@@ -3649,10 +3601,6 @@
                             "y": 0.3754789272030651,
                             "uniqueID": 587125,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": -121
@@ -3724,10 +3672,6 @@
                             "y": 0.7432950191570881,
                             "uniqueID": 688010,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": 0
