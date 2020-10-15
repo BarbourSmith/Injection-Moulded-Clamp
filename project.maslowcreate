@@ -1604,10 +1604,6 @@
                             "uniqueID": 877759,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
-                                {
                                     "name": "xDist",
                                     "ioValue": 0
                                 },
@@ -1812,12 +1808,7 @@
                     "x": 0.7130307467057101,
                     "y": 0.29885057471264365,
                     "uniqueID": 411134,
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": ""
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
@@ -1845,10 +1836,6 @@
                             "uniqueID": 246497,
                             "ioValues": [
                                 {
-                                    "name": "x length",
-                                    "ioValue": 52
-                                },
-                                {
                                     "name": "y length",
                                     "ioValue": 4
                                 }
@@ -1870,10 +1857,6 @@
                             "uniqueID": 919851,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
-                                {
                                     "name": "height",
                                     "ioValue": 25
                                 }
@@ -1886,14 +1869,6 @@
                             "y": 0.5517241379310345,
                             "uniqueID": 226593,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
-                                {
-                                    "name": "xDist",
-                                    "ioValue": -57
-                                },
                                 {
                                     "name": "yDist",
                                     "ioValue": 0
@@ -2718,10 +2693,6 @@
             "uniqueID": 169647,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
                     "name": "x-axis degrees",
                     "ioValue": 180
                 },
@@ -2811,10 +2782,6 @@
                     "y": 0.2375478927203065,
                     "uniqueID": 823619,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -2991,16 +2958,7 @@
             "x": 0.3945827232796486,
             "y": 0.6450381679389313,
             "uniqueID": 281555,
-            "ioValues": [
-                {
-                    "name": "geometry2",
-                    "ioValue": ""
-                },
-                {
-                    "name": "geometry1",
-                    "ioValue": ""
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Molecule",
@@ -3107,8 +3065,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.10468521229868229,
-                            "y": 0.3065134099616858,
+                            "x": 0.10416666666666667,
+                            "y": 0.30268199233716475,
                             "uniqueID": 540361,
                             "ioValues": [
                                 {
