@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Bracing and Outline",
-            "x": 0.11859443631039533,
-            "y": 0.2366412213740458,
+            "x": 0.11904761904761904,
+            "y": 0.25287356321839083,
             "uniqueID": 485073,
             "ioValues": [],
             "topLevel": false,
@@ -1569,7 +1569,7 @@
                                     "ioValue": 10
                                 },
                                 {
-                                    "name": "3D shape 4",
+                                    "name": "3D shape 5",
                                     "ioValue": 10
                                 }
                             ]
@@ -1618,6 +1618,27 @@
                             ]
                         },
                         {
+                            "atomType": "Translate",
+                            "name": "Translate",
+                            "x": 0.4365079365079365,
+                            "y": 0.7318007662835249,
+                            "uniqueID": 517526,
+                            "ioValues": [
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": -4
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "GitHubMolecule",
                             "name": "Concentric Cylinder",
                             "x": 0.1486090775988287,
@@ -1635,7 +1656,7 @@
                                 },
                                 {
                                     "name": "Height",
-                                    "ioValue": 29
+                                    "ioValue": 33
                                 }
                             ]
                         },
@@ -1676,11 +1697,18 @@
                             "ap1ID": 877759
                         },
                         {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "3D shape 4",
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 5",
                             "ap2Primary": false,
-                            "ap1ID": 323539,
+                            "ap1ID": 517526,
                             "ap2ID": 806870
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 323539,
+                            "ap2ID": 517526
                         }
                     ],
                     "fileTypeVersion": 1
