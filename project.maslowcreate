@@ -2989,6 +2989,14 @@
             "ioValues": []
         },
         {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.6587301587301587,
+            "y": 0.5210727969348659,
+            "uniqueID": 304534,
+            "ioValues": []
+        },
+        {
             "atomType": "Molecule",
             "name": "Bolts",
             "x": 0.15739385065885797,
