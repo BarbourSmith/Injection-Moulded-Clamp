@@ -1864,6 +1864,10 @@
                             "uniqueID": 246497,
                             "ioValues": [
                                 {
+                                    "name": "x length",
+                                    "ioValue": 52
+                                },
+                                {
                                     "name": "y length",
                                     "ioValue": 4
                                 }
@@ -1897,6 +1901,10 @@
                             "y": 0.5517241379310345,
                             "uniqueID": 226593,
                             "ioValues": [
+                                {
+                                    "name": "xDist",
+                                    "ioValue": -57
+                                },
                                 {
                                     "name": "yDist",
                                     "ioValue": 0
@@ -2100,8 +2108,8 @@
         {
             "atomType": "Molecule",
             "name": "Bushing",
-            "x": 0.11346998535871157,
-            "y": 0.40076335877862596,
+            "x": 0.11679884643114637,
+            "y": 0.46153846153846156,
             "uniqueID": 692836,
             "ioValues": [],
             "topLevel": false,
