@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Bracing and Outline",
-            "x": 0.11904761904761904,
-            "y": 0.25287356321839083,
+            "x": 0.12079062957540262,
+            "y": 0.26053639846743293,
             "uniqueID": 485073,
             "ioValues": [],
             "topLevel": false,
@@ -1847,11 +1847,11 @@
                     "ioValues": [
                         {
                             "name": "Length",
-                            "ioValue": 52
+                            "ioValue": 50
                         },
                         {
                             "name": "Translate",
-                            "ioValue": -57
+                            "ioValue": -58.5
                         }
                     ],
                     "topLevel": false,
@@ -1863,10 +1863,6 @@
                             "y": 0.43295019157088127,
                             "uniqueID": 246497,
                             "ioValues": [
-                                {
-                                    "name": "x length",
-                                    "ioValue": 52
-                                },
                                 {
                                     "name": "y length",
                                     "ioValue": 4
@@ -1901,10 +1897,6 @@
                             "y": 0.5517241379310345,
                             "uniqueID": 226593,
                             "ioValues": [
-                                {
-                                    "name": "xDist",
-                                    "ioValue": -57
-                                },
                                 {
                                     "name": "yDist",
                                     "ioValue": 0
