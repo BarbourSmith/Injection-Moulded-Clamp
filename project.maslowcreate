@@ -962,6 +962,197 @@
                 },
                 {
                     "atomType": "Molecule",
+                    "name": "Ring Braces",
+                    "x": 0.22693997071742314,
+                    "y": 0.475095785440613,
+                    "uniqueID": 730201,
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "GitHubMolecule",
+                            "name": "Concentric Cylinder",
+                            "x": 0.12225475841874085,
+                            "y": 0.26053639846743293,
+                            "uniqueID": 424922,
+                            "projectID": "281702086",
+                            "ioValues": [
+                                {
+                                    "name": "OD",
+                                    "ioValue": 125
+                                },
+                                {
+                                    "name": "ID",
+                                    "ioValue": 121
+                                },
+                                {
+                                    "name": "Height",
+                                    "ioValue": 25
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Union",
+                            "name": "Union",
+                            "x": 0.48243045387994143,
+                            "y": 0.4099616858237548,
+                            "uniqueID": 806870,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 3",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 5",
+                                    "ioValue": 10
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "GitHubMolecule",
+                            "name": "Concentric Cylinder",
+                            "x": 0.13469985358711567,
+                            "y": 0.6360153256704981,
+                            "uniqueID": 983627,
+                            "projectID": "281702086",
+                            "ioValues": [
+                                {
+                                    "name": "OD",
+                                    "ioValue": 98.875
+                                },
+                                {
+                                    "name": "ID",
+                                    "ioValue": 94.875
+                                },
+                                {
+                                    "name": "Height",
+                                    "ioValue": 25
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Translate",
+                            "name": "Translate",
+                            "x": 0.6493411420204978,
+                            "y": 0.5210727969348659,
+                            "uniqueID": 877759,
+                            "ioValues": [
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": -12.5
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Translate",
+                            "name": "Translate",
+                            "x": 0.4365079365079365,
+                            "y": 0.7318007662835249,
+                            "uniqueID": 517526,
+                            "ioValues": [
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": -4
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "GitHubMolecule",
+                            "name": "Concentric Cylinder",
+                            "x": 0.14714494875549047,
+                            "y": 0.9042145593869733,
+                            "uniqueID": 323539,
+                            "projectID": "281702086",
+                            "ioValues": [
+                                {
+                                    "name": "OD",
+                                    "ioValue": 72.75
+                                },
+                                {
+                                    "name": "ID",
+                                    "ioValue": 68.75
+                                },
+                                {
+                                    "name": "Height",
+                                    "ioValue": 33
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.9853587115666179,
+                            "y": 0.5,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "3D shape 3",
+                            "ap2Primary": false,
+                            "ap1ID": 424922,
+                            "ap2ID": 806870
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 806870,
+                            "ap2ID": 877759
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "3D shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": 983627,
+                            "ap2ID": 806870
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 877759
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 5",
+                            "ap2Primary": false,
+                            "ap1ID": 517526,
+                            "ap2ID": 806870
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 323539,
+                            "ap2ID": 517526
+                        }
+                    ],
+                    "fileTypeVersion": 1
+                },
+                {
+                    "atomType": "Molecule",
                     "name": "Cut Away",
                     "x": 0.5541727672035139,
                     "y": 0.1685823754789272,
@@ -1184,8 +1375,8 @@
                                 {
                                     "atomType": "Translate",
                                     "name": "Translate",
-                                    "x": 0.7723279648609077,
-                                    "y": 0.6628352490421456,
+                                    "x": 0.8257686676427525,
+                                    "y": 0.5325670498084291,
                                     "uniqueID": 889905,
                                     "ioValues": [
                                         {
@@ -1198,7 +1389,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 25
+                                            "ioValue": -25
                                         }
                                     ]
                                 },
@@ -1248,12 +1439,6 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "number or geometry",
-                                    "ap2Primary": false,
-                                    "ap1ID": 759625
-                                },
-                                {
-                                    "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
                                     "ap1ID": 759625,
@@ -1265,6 +1450,12 @@
                                     "ap2Primary": false,
                                     "ap1ID": 858203,
                                     "ap2ID": 908448
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 889905
                                 }
                             ],
                             "fileTypeVersion": 1
@@ -1715,197 +1906,6 @@
                     "fileTypeVersion": 1
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Ring Braces",
-                    "x": 0.22693997071742314,
-                    "y": 0.5363984674329502,
-                    "uniqueID": 730201,
-                    "ioValues": [],
-                    "topLevel": false,
-                    "allAtoms": [
-                        {
-                            "atomType": "GitHubMolecule",
-                            "name": "Concentric Cylinder",
-                            "x": 0.12445095168374817,
-                            "y": 0.27586206896551724,
-                            "uniqueID": 424922,
-                            "projectID": "281702086",
-                            "ioValues": [
-                                {
-                                    "name": "OD",
-                                    "ioValue": 125
-                                },
-                                {
-                                    "name": "ID",
-                                    "ioValue": 121
-                                },
-                                {
-                                    "name": "Height",
-                                    "ioValue": 25
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Union",
-                            "name": "Union",
-                            "x": 0.48243045387994143,
-                            "y": 0.4099616858237548,
-                            "uniqueID": 806870,
-                            "ioValues": [
-                                {
-                                    "name": "3D shape 2",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 3",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 5",
-                                    "ioValue": 10
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "GitHubMolecule",
-                            "name": "Concentric Cylinder",
-                            "x": 0.13469985358711567,
-                            "y": 0.6283524904214559,
-                            "uniqueID": 983627,
-                            "projectID": "281702086",
-                            "ioValues": [
-                                {
-                                    "name": "OD",
-                                    "ioValue": 98.875
-                                },
-                                {
-                                    "name": "ID",
-                                    "ioValue": 94.875
-                                },
-                                {
-                                    "name": "Height",
-                                    "ioValue": 25
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Translate",
-                            "name": "Translate",
-                            "x": 0.6493411420204978,
-                            "y": 0.5210727969348659,
-                            "uniqueID": 877759,
-                            "ioValues": [
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": -12.5
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Translate",
-                            "name": "Translate",
-                            "x": 0.4365079365079365,
-                            "y": 0.7318007662835249,
-                            "uniqueID": 517526,
-                            "ioValues": [
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": -4
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "GitHubMolecule",
-                            "name": "Concentric Cylinder",
-                            "x": 0.1486090775988287,
-                            "y": 0.89272030651341,
-                            "uniqueID": 323539,
-                            "projectID": "281702086",
-                            "ioValues": [
-                                {
-                                    "name": "OD",
-                                    "ioValue": 72.75
-                                },
-                                {
-                                    "name": "ID",
-                                    "ioValue": 68.75
-                                },
-                                {
-                                    "name": "Height",
-                                    "ioValue": 33
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Output",
-                            "name": "Output",
-                            "x": 0.9853587115666179,
-                            "y": 0.5,
-                            "ioValues": []
-                        }
-                    ],
-                    "allConnectors": [
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "3D shape 3",
-                            "ap2Primary": false,
-                            "ap1ID": 424922,
-                            "ap2ID": 806870
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 806870,
-                            "ap2ID": 877759
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "3D shape 2",
-                            "ap2Primary": false,
-                            "ap1ID": 983627,
-                            "ap2ID": 806870
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 877759
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "3D shape 5",
-                            "ap2Primary": false,
-                            "ap1ID": 517526,
-                            "ap2ID": 806870
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 323539,
-                            "ap2ID": 517526
-                        }
-                    ],
-                    "fileTypeVersion": 1
-                },
-                {
                     "atomType": "Union",
                     "name": "Union",
                     "x": 0.5036603221083455,
@@ -2223,17 +2223,17 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": 740278,
-                    "ap2ID": 411134
-                },
-                {
-                    "ap1Name": "Geometry",
                     "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 730201,
                     "ap2ID": 280815
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 740278,
+                    "ap2ID": 411134
                 },
                 {
                     "ap1Name": "geometry",
