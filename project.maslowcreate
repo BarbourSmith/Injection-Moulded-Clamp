@@ -4456,6 +4456,23 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.5490483162518301,
+            "y": 0.7088122605363985,
+            "uniqueID": 113493,
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": ""
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": ""
+                }
+            ]
+        },
+        {
             "atomType": "Stl",
             "name": "Stl",
             "x": 0.45241581259150804,
