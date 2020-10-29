@@ -1091,8 +1091,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Button Notch",
-                            "x": 0.6852122986822841,
-                            "y": 0.1724137931034483,
+                            "x": 0.6815519765739385,
+                            "y": 0.16475095785440613,
                             "uniqueID": 397836,
                             "ioValues": [],
                             "topLevel": false,
@@ -1138,13 +1138,13 @@
                                 {
                                     "atomType": "Constant",
                                     "name": "Length",
-                                    "x": 0.23718887262079066,
+                                    "x": 0.23865300146412882,
                                     "y": 0.6704980842911877,
                                     "uniqueID": 915103,
                                     "ioValues": [
                                         {
                                             "name": "number",
-                                            "ioValue": 69
+                                            "ioValue": 72
                                         }
                                     ],
                                     "evolve": false,
