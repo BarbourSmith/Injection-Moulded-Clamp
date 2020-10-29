@@ -963,8 +963,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Cut Away",
-                    "x": 0.5556368960468522,
-                    "y": 0.1724137931034483,
+                    "x": 0.5541727672035139,
+                    "y": 0.1685823754789272,
                     "uniqueID": 740278,
                     "ioValues": [],
                     "topLevel": false,
@@ -1087,6 +1087,60 @@
                                     "ioValue": 0
                                 }
                             ]
+                        },
+                        {
+                            "atomType": "Molecule",
+                            "name": "Button Notch",
+                            "x": 0.6859443631039532,
+                            "y": 0.18007662835249041,
+                            "uniqueID": 397836,
+                            "ioValues": [],
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.23718887262079066,
+                                    "y": 0.5708812260536399,
+                                    "uniqueID": 811473,
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 25
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Extrude",
+                                    "name": "Extrude",
+                                    "x": 0.42386530014641294,
+                                    "y": 0.4789272030651341,
+                                    "uniqueID": 521810,
+                                    "ioValues": [
+                                        {
+                                            "name": "height",
+                                            "ioValue": 10
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.9853587115666179,
+                                    "y": 0.5,
+                                    "ioValues": []
+                                }
+                            ],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 811473,
+                                    "ap2ID": 521810
+                                }
+                            ],
+                            "fileTypeVersion": 1
                         },
                         {
                             "atomType": "Difference",
