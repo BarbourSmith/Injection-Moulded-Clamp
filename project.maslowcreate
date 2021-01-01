@@ -3343,8 +3343,8 @@
         {
             "atomType": "Molecule",
             "name": "Leadscrew Nut",
-            "x": 0.11639824304538798,
-            "y": 0.6666666666666666,
+            "x": 0.12331606217616581,
+            "y": 0.6564885496183206,
             "uniqueID": 536823,
             "ioValues": [],
             "topLevel": false,
@@ -3445,8 +3445,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.11786237188872621,
-                    "y": 0.7509578544061302,
+                    "x": 0.11813471502590672,
+                    "y": 0.7557251908396946,
                     "uniqueID": 646912,
                     "ioValues": [
                         {
@@ -4022,7 +4022,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 110368,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/663505/415182/694361/217116Union"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -4070,6 +4075,13 @@
                         },
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 217116,
+                            "ap2ID": 110368
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "3D shape 1",
                             "ap2Primary": false,
                             "ap1ID": 688010,
@@ -4081,8 +4093,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Clamp Together Bolts",
-                    "x": 0.5490483162518301,
-                    "y": 0.3754789272030651,
+                    "x": 0.5481865284974093,
+                    "y": 0.3549618320610687,
                     "uniqueID": 392211,
                     "ioValues": [
                         {
@@ -4128,8 +4140,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Bottom Row",
-                            "x": 0.5600292825768667,
-                            "y": 0.24137931034482757,
+                            "x": 0.5212435233160622,
+                            "y": 0.2099236641221374,
                             "uniqueID": 892242,
                             "ioValues": [
                                 {
@@ -4307,7 +4319,12 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 977862,
-                                    "ioValues": []
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "atoms/663505/415182/392211/892242/853104Union"
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -4366,6 +4383,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 866898,
                                     "ap2ID": 853104
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 853104,
+                                    "ap2ID": 977862
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -4566,7 +4590,12 @@
                                     "x": 0.9853587115666179,
                                     "y": 0.5,
                                     "uniqueID": 845688,
-                                    "ioValues": []
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "atoms/663505/415182/392211/249255/475778Union"
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -4625,6 +4654,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 700335,
                                     "ap2ID": 475778
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 475778,
+                                    "ap2ID": 845688
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -4717,7 +4753,12 @@
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "uniqueID": 100097,
-                            "ioValues": []
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/663505/415182/392211/476784Union"
+                                }
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -4776,6 +4817,13 @@
                             "ap2Primary": false,
                             "ap1ID": 103529,
                             "ap2ID": 394151
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 476784,
+                            "ap2ID": 100097
                         }
                     ],
                     "fileTypeVersion": 1
