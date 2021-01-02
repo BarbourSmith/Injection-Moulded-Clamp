@@ -1654,27 +1654,6 @@
                                     "closedSelection": 0
                                 },
                                 {
-                                    "atomType": "Union",
-                                    "name": "Union",
-                                    "x": 0.6715025906735751,
-                                    "y": 0.2824427480916031,
-                                    "uniqueID": 248988,
-                                    "ioValues": [
-                                        {
-                                            "name": "3D shape 1",
-                                            "ioValue": 10
-                                        },
-                                        {
-                                            "name": "3D shape 2",
-                                            "ioValue": 10
-                                        },
-                                        {
-                                            "name": "3D shape 3",
-                                            "ioValue": 10
-                                        }
-                                    ]
-                                },
-                                {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
                                     "x": 0.4904831625183016,
@@ -1868,13 +1847,6 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "3D shape 3",
-                                    "ap2Primary": false,
-                                    "ap1ID": 564928,
-                                    "ap2ID": 248988
-                                },
-                                {
-                                    "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
                                     "ap1ID": 994640,
@@ -1893,13 +1865,6 @@
                                     "ap2Primary": false,
                                     "ap1ID": 838107,
                                     "ap2ID": 166600
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "3D shape 2",
-                                    "ap2Primary": false,
-                                    "ap1ID": 838107,
-                                    "ap2ID": 248988
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -1949,13 +1914,6 @@
                                     "ap2Primary": false,
                                     "ap1ID": 681046,
                                     "ap2ID": 166600
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "3D shape 1",
-                                    "ap2Primary": false,
-                                    "ap1ID": 681046,
-                                    "ap2ID": 248988
                                 }
                             ],
                             "fileTypeVersion": 1
