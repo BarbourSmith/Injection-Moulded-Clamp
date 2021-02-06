@@ -4020,8 +4020,8 @@
                                 {
                                     "atomType": "Translate",
                                     "name": "Translate",
-                                    "x": 0.12371888726207907,
-                                    "y": 0.2950191570881226,
+                                    "x": 0.1295754026354319,
+                                    "y": 0.29389312977099236,
                                     "uniqueID": 752688,
                                     "ioValues": [
                                         {
@@ -4105,10 +4105,6 @@
                                         },
                                         {
                                             "name": "3D shape 3",
-                                            "ioValue": 10
-                                        },
-                                        {
-                                            "name": "3D shape 4",
                                             "ioValue": 10
                                         },
                                         {
@@ -4210,13 +4206,6 @@
                                     "ap2Primary": true,
                                     "ap1ID": 100354,
                                     "ap2ID": 134691
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "3D shape 4",
-                                    "ap2Primary": false,
-                                    "ap1ID": 134691,
-                                    "ap2ID": 475778
                                 },
                                 {
                                     "ap1Name": "geometry",
