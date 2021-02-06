@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Bracing and Outline",
-            "x": 0.11606217616580311,
-            "y": 0.2748091603053435,
+            "x": 0.11186113789778206,
+            "y": 0.26717557251908397,
             "uniqueID": 485073,
             "ioValues": [],
             "topLevel": false,
@@ -1989,9 +1989,9 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.6704663212435233,
-                    "y": 0.28625954198473286,
-                    "uniqueID": 825601,
+                    "x": 0.6530014641288433,
+                    "y": 0.32061068702290074,
+                    "uniqueID": 597571,
                     "ioValues": [
                         {
                             "name": "geometry2",
@@ -2493,6 +2493,10 @@
                         {
                             "name": "3D shape 2",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -2551,7 +2555,7 @@
                     "ap2Name": "geometry2",
                     "ap2Primary": false,
                     "ap1ID": 740278,
-                    "ap2ID": 825601
+                    "ap2ID": 597571
                 },
                 {
                     "ap1Name": "Geometry",
@@ -2559,6 +2563,13 @@
                     "ap2Primary": false,
                     "ap1ID": 800487,
                     "ap2ID": 839868
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 597571,
+                    "ap2ID": 498542
                 },
                 {
                     "ap1Name": "Geometry",
@@ -2572,7 +2583,7 @@
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": 839868,
-                    "ap2ID": 825601
+                    "ap2ID": 597571
                 },
                 {
                     "ap1Name": "Geometry",
