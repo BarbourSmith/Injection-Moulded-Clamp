@@ -679,8 +679,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Shave down corner",
-                            "x": 0.8601756954612007,
-                            "y": 0.8275862068965518,
+                            "x": 0.8572474377745242,
+                            "y": 0.8206106870229009,
                             "uniqueID": 487274,
                             "ioValues": [],
                             "topLevel": false,
@@ -737,6 +737,44 @@
                                     ]
                                 },
                                 {
+                                    "atomType": "Union",
+                                    "name": "Union",
+                                    "x": 0.8440702781844802,
+                                    "y": 0.5229007633587786,
+                                    "uniqueID": 269831,
+                                    "ioValues": [
+                                        {
+                                            "name": "3D shape 1",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "3D shape 2",
+                                            "ioValue": 10
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Rotate",
+                                    "name": "Rotate",
+                                    "x": 0.7115666178623719,
+                                    "y": 0.7709923664122137,
+                                    "uniqueID": 583591,
+                                    "ioValues": [
+                                        {
+                                            "name": "x-axis degrees",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "y-axis degrees",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "z-axis degrees",
+                                            "ioValue": 180
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Output",
                                     "name": "Output",
                                     "x": 0.9853587115666179,
@@ -762,10 +800,31 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "number or geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 484190,
+                                    "ap2ID": 583591
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 2",
                                     "ap2Primary": false,
                                     "ap1ID": 484190,
+                                    "ap2ID": 269831
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 269831,
                                     "ap2ID": 249501
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 1",
+                                    "ap2Primary": false,
+                                    "ap1ID": 583591,
+                                    "ap2ID": 269831
                                 }
                             ],
                             "fileTypeVersion": 1
