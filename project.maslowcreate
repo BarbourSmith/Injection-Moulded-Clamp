@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Bracing and Outline",
-            "x": 0.11186113789778206,
-            "y": 0.26717557251908397,
+            "x": 0.11054172767203513,
+            "y": 0.25190839694656486,
             "uniqueID": 485073,
             "ioValues": [],
             "topLevel": false,
@@ -542,10 +542,6 @@
                                 {
                                     "name": "3D shape 6",
                                     "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 7",
-                                    "ioValue": 10
                                 }
                             ]
                         },
@@ -824,13 +820,6 @@
                             "ap2Primary": false,
                             "ap1ID": 866020,
                             "ap2ID": 189478
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "3D shape 7",
-                            "ap2Primary": false,
-                            "ap1ID": 397836,
-                            "ap2ID": 748736
                         },
                         {
                             "ap1Name": "geometry",
