@@ -2147,8 +2147,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.14714494875549047,
-                            "y": 0.39080459770114945,
+                            "x": 0.14494875549048317,
+                            "y": 0.4198473282442748,
                             "uniqueID": 519840,
                             "ioValues": [
                                 {
@@ -2164,8 +2164,8 @@
                         {
                             "atomType": "Translate",
                             "name": "Translate",
-                            "x": 0.48911917098445595,
-                            "y": 0.2824427480916031,
+                            "x": 0.4890190336749634,
+                            "y": 0.26717557251908397,
                             "uniqueID": 879720,
                             "ioValues": [
                                 {
@@ -2174,7 +2174,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 2
+                                    "ioValue": 0
                                 },
                                 {
                                     "name": "zDist",
@@ -3743,8 +3743,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Clamp Together Bolts",
-                    "x": 0.5481865284974093,
-                    "y": 0.3549618320610687,
+                    "x": 0.5512445095168375,
+                    "y": 0.3511450381679389,
                     "uniqueID": 392211,
                     "ioValues": [],
                     "topLevel": false,
@@ -3866,10 +3866,6 @@
                                     "uniqueID": 853104,
                                     "ioValues": [
                                         {
-                                            "name": "3D shape 1",
-                                            "ioValue": 10
-                                        },
-                                        {
                                             "name": "3D shape 2",
                                             "ioValue": 10
                                         },
@@ -3911,8 +3907,8 @@
                                 {
                                     "atomType": "Translate",
                                     "name": "Translate",
-                                    "x": 0.28989751098096633,
-                                    "y": 0.8084291187739464,
+                                    "x": 0.2884333821376281,
+                                    "y": 0.816793893129771,
                                     "uniqueID": 639218,
                                     "ioValues": [
                                         {
@@ -4001,13 +3997,6 @@
                                     "ap2Primary": false,
                                     "ap1ID": 853104,
                                     "ap2ID": 977862
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "3D shape 1",
-                                    "ap2Primary": false,
-                                    "ap1ID": 959002,
-                                    "ap2ID": 853104
                                 },
                                 {
                                     "ap1Name": "geometry",
