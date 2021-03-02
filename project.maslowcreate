@@ -3344,8 +3344,8 @@
         {
             "atomType": "Molecule",
             "name": "Leadscrew Nut",
-            "x": 0.11475409836065575,
-            "y": 0.6374045801526718,
+            "x": 0.12246865959498554,
+            "y": 0.6145038167938931,
             "uniqueID": 536823,
             "ioValues": [],
             "topLevel": false,
@@ -3414,7 +3414,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 3.18
+                            "ioValue": 5.18
                         }
                     ]
                 },
@@ -3439,7 +3439,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 3.18
+                            "ioValue": 5.18
                         }
                     ]
                 },
