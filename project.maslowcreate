@@ -88,6 +88,10 @@
                             "uniqueID": 771477,
                             "ioValues": [
                                 {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/663505/485073/800487/647437/380206Assembly"
+                                },
+                                {
                                     "name": "x-axis degrees",
                                     "ioValue": 0
                                 },
@@ -1050,6 +1054,10 @@
                             "uniqueID": 305878,
                             "ioValues": [
                                 {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/663505/485073/800487/388393/714635Union"
+                                },
+                                {
                                     "name": "x-axis degrees",
                                     "ioValue": 0
                                 },
@@ -1916,6 +1924,10 @@
                     "y": 0.3320610687022901,
                     "uniqueID": 597571,
                     "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": "atoms/663505/485073/740278/748736Union"
+                        },
                         {
                             "name": "geometry1",
                             "ioValue": "atoms/663505/485073/926734Union"
@@ -4715,5 +4727,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "1.6"
+    "circleSegmentSize": "0.7"
 }
