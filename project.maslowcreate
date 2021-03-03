@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Bracing and Outline",
-            "x": 0.11346998535871157,
-            "y": 0.2213740458015267,
+            "x": 0.11273792093704245,
+            "y": 0.23282442748091603,
             "uniqueID": 485073,
             "ioValues": [],
             "topLevel": false,
@@ -282,8 +282,8 @@
                                 {
                                     "atomType": "Circle",
                                     "name": "Circle",
-                                    "x": 0.055636896046852125,
-                                    "y": 0.7366412213740459,
+                                    "x": 0.06002928257686676,
+                                    "y": 0.7099236641221374,
                                     "uniqueID": 537364,
                                     "ioValues": [
                                         {
@@ -1898,7 +1898,7 @@
                         },
                         {
                             "name": "geometry1",
-                            "ioValue": "atoms/663505/485073/926734Union"
+                            "ioValue": "atoms/663505/485073/422808Union"
                         }
                     ]
                 },
@@ -2075,6 +2075,31 @@
                         }
                     ],
                     "fileTypeVersion": 1
+                },
+                {
+                    "atomType": "Union",
+                    "name": "Union",
+                    "x": 0.47803806734992677,
+                    "y": 0.7633587786259541,
+                    "uniqueID": 422808,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -2478,6 +2503,13 @@
                     "ap2ID": 926734
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 845059,
+                    "ap2ID": 422808
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 3",
                     "ap2Primary": false,
@@ -2486,16 +2518,16 @@
                 },
                 {
                     "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 800487,
+                    "ap2ID": 422808
+                },
+                {
+                    "ap1Name": "Geometry",
                     "ap2Name": "geometry2",
                     "ap2Primary": false,
                     "ap1ID": 740278,
-                    "ap2ID": 597571
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 926734,
                     "ap2ID": 597571
                 },
                 {
@@ -2514,6 +2546,20 @@
                 },
                 {
                     "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 730201,
+                    "ap2ID": 422808
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 422808,
+                    "ap2ID": 597571
+                },
+                {
+                    "ap1Name": "Geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 159340,
@@ -2525,6 +2571,13 @@
                     "ap2Primary": false,
                     "ap1ID": 842915,
                     "ap2ID": 926734
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 842915,
+                    "ap2ID": 422808
                 },
                 {
                     "ap1Name": "geometry",
@@ -2539,9 +2592,9 @@
         {
             "atomType": "Union",
             "name": "Union",
-            "x": 0.2767203513909224,
-            "y": 0.29389312977099236,
-            "uniqueID": 668349,
+            "x": 0.2759882869692533,
+            "y": 0.32061068702290074,
+            "uniqueID": 150952,
             "ioValues": [
                 {
                     "name": "3D shape 1",
@@ -2556,8 +2609,8 @@
         {
             "atomType": "Molecule",
             "name": "Bushing",
-            "x": 0.10834553440702782,
-            "y": 0.4236641221374046,
+            "x": 0.11054172767203513,
+            "y": 0.450381679389313,
             "uniqueID": 692836,
             "ioValues": [],
             "topLevel": false,
@@ -2911,9 +2964,9 @@
                 {
                     "atomType": "Union",
                     "name": "Union",
-                    "x": 0.47144948755490484,
-                    "y": 0.26053639846743293,
-                    "uniqueID": 517497,
+                    "x": 0.4707174231332357,
+                    "y": 0.2633587786259542,
+                    "uniqueID": 473397,
                     "ioValues": [
                         {
                             "name": "3D shape 1",
@@ -2934,7 +2987,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/663505/692836/517497Union"
+                            "ioValue": "atoms/663505/692836/473397Union"
                         },
                         {
                             "name": "tag",
@@ -3190,7 +3243,7 @@
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 934749,
-                    "ap2ID": 517497
+                    "ap2ID": 473397
                 },
                 {
                     "ap1Name": "geometry",
@@ -3204,7 +3257,7 @@
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 617483,
-                    "ap2ID": 517497
+                    "ap2ID": 473397
                 },
                 {
                     "ap1Name": "geometry",
@@ -3224,7 +3277,7 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 517497,
+                    "ap1ID": 473397,
                     "ap2ID": 525945
                 },
                 {
@@ -3526,7 +3579,7 @@
                 },
                 {
                     "name": "geometry1",
-                    "ioValue": "atoms/663505/668349Union"
+                    "ioValue": "atoms/663505/150952Union"
                 }
             ]
         },
@@ -4624,13 +4677,13 @@
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
             "ap1ID": 485073,
-            "ap2ID": 668349
+            "ap2ID": 150952
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry1",
             "ap2Primary": false,
-            "ap1ID": 668349,
+            "ap1ID": 150952,
             "ap2ID": 281555
         },
         {
@@ -4638,7 +4691,7 @@
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
             "ap1ID": 692836,
-            "ap2ID": 668349
+            "ap2ID": 150952
         },
         {
             "ap1Name": "Geometry",
