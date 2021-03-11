@@ -3562,20 +3562,6 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Color",
-            "name": "Color",
-            "x": 0.5475841874084919,
-            "y": 0.4198473282442748,
-            "uniqueID": 105857,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "atoms/663505/281555Difference"
-                }
-            ],
-            "selectedColorIndex": "6"
-        },
-        {
             "atomType": "Union",
             "name": "Union",
             "x": 0.27964860907759886,
@@ -4709,7 +4695,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "atoms/663505/105857Color"
+                    "ioValue": "atoms/663505/281555Difference"
                 }
             ]
         }
@@ -4745,13 +4731,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 105857,
-            "ap2ID": 706840
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry2",
             "ap2Primary": false,
             "ap1ID": 937491,
@@ -4766,10 +4745,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
             "ap1ID": 281555,
-            "ap2ID": 105857
+            "ap2ID": 706840
         },
         {
             "ap1Name": "Geometry",
