@@ -88,6 +88,10 @@
                             "uniqueID": 771477,
                             "ioValues": [
                                 {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/663505/485073/800487/647437/380206Assembly"
+                                },
+                                {
                                     "name": "x-axis degrees",
                                     "ioValue": 0
                                 },
@@ -1049,6 +1053,10 @@
                             "y": 0.8053435114503817,
                             "uniqueID": 305878,
                             "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/663505/485073/800487/388393/714635Union"
+                                },
                                 {
                                     "name": "x-axis degrees",
                                     "ioValue": 0
@@ -3409,6 +3417,10 @@
                     "uniqueID": 940443,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": "atoms/663505/536823/802301/901852Union"
+                        },
+                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -3599,8 +3611,8 @@
         {
             "atomType": "Molecule",
             "name": "Bolts",
-            "x": 0.11378977820636452,
-            "y": 0.900763358778626,
+            "x": 0.1171303074670571,
+            "y": 0.9083969465648855,
             "uniqueID": 415182,
             "ioValues": [],
             "topLevel": false,
@@ -3612,6 +3624,10 @@
                     "y": 0.210727969348659,
                     "uniqueID": 131932,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/663505/415182/275864/858038Union"
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -3629,8 +3645,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bolt",
-                    "x": 0.09257473481195756,
-                    "y": 0.4732824427480916,
+                    "x": 0.09370424597364568,
+                    "y": 0.4809160305343511,
                     "uniqueID": 275864,
                     "ioValues": [],
                     "topLevel": false,
@@ -3693,8 +3709,8 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "M3 Locknut",
-                            "x": 0.13018322082931533,
-                            "y": 0.7137404580152672,
+                            "x": 0.13177159590043924,
+                            "y": 0.7061068702290076,
                             "uniqueID": 374660,
                             "projectID": "278794657",
                             "ioValues": []
@@ -3706,6 +3722,10 @@
                             "y": 0.7318007662835249,
                             "uniqueID": 112641,
                             "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/663505/415182/275864/374660/378449Color"
+                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": 0
@@ -3746,7 +3766,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "atoms/663505/415182/275864/270206Translate"
+                                    "ioValue": "atoms/663505/415182/275864/858038Union"
                                 }
                             ]
                         }
@@ -3774,13 +3794,6 @@
                             "ap2ID": 858038
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 270206,
-                            "ap2ID": 468713
-                        },
-                        {
                             "ap1Name": "Geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
@@ -3793,6 +3806,13 @@
                             "ap2Primary": false,
                             "ap1ID": 112641,
                             "ap2ID": 858038
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 858038,
+                            "ap2ID": 468713
                         }
                     ],
                     "fileTypeVersion": 1
@@ -4315,7 +4335,12 @@
                     "x": 0.5004821600771456,
                     "y": 0.7938931297709924,
                     "uniqueID": 694361,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "Bolt",
+                            "ioValue": "atoms/663505/415182/275864/858038Union"
+                        }
+                    ],
                     "topLevel": false,
                     "allAtoms": [
                         {
@@ -4375,6 +4400,10 @@
                             "y": 0.5019157088122606,
                             "uniqueID": 588388,
                             "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/663505/415182/275864/858038Union"
+                                },
                                 {
                                     "name": "x-axis degrees",
                                     "ioValue": 90
@@ -4731,5 +4760,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.7"
+    "circleSegmentSize": "6.4"
 }
