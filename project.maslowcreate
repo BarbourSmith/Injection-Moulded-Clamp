@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Bracing and Outline",
-            "x": 0.11888111888111888,
-            "y": 0.27099236641221375,
+            "x": 0.1128871128871129,
+            "y": 0.2595419847328244,
             "uniqueID": 485073,
             "ioValues": [],
             "topLevel": false,
@@ -3046,6 +3046,23 @@
                     ]
                 },
                 {
+                    "atomType": "Tag",
+                    "name": "Add Tag",
+                    "x": 0.8951048951048951,
+                    "y": 0.5267175572519084,
+                    "uniqueID": 979927,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/663505/485073/994938Union"
+                        },
+                        {
+                            "name": "tag",
+                            "ioValue": "Plastic"
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -3054,7 +3071,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "atoms/663505/485073/994938Union"
+                            "ioValue": "atoms/663505/485073/979927Tag"
                         }
                     ]
                 }
@@ -3132,9 +3149,16 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 994938,
+                    "ap2ID": 979927
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 994938,
+                    "ap1ID": 979927,
                     "ap2ID": 417170
                 }
             ],
@@ -3154,6 +3178,23 @@
                 {
                     "name": "3D shape 2",
                     "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.3966033966033966,
+            "y": 0.22900763358778628,
+            "uniqueID": 504934,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/663505/516768/239500Rotate"
+                },
+                {
+                    "name": "tag",
+                    "ioValue": "Cut"
                 }
             ]
         },
@@ -3928,8 +3969,8 @@
         {
             "atomType": "Molecule",
             "name": "Clamping Wedge",
-            "x": 0.4485514485514486,
-            "y": 0.14885496183206107,
+            "x": 0.5124875124875125,
+            "y": 0.16030534351145037,
             "uniqueID": 516768,
             "ioValues": [],
             "topLevel": false,
@@ -4442,8 +4483,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bolts",
-                    "x": 0.3896103896103896,
-                    "y": 0.8969465648854962,
+                    "x": 0.3916083916083916,
+                    "y": 0.8854961832061068,
                     "uniqueID": 525931,
                     "ioValues": [],
                     "topLevel": false,
@@ -4688,7 +4729,7 @@
                                     "ioValue": "atoms/663505/516768/525931/562715Extrude"
                                 }
                             ],
-                            "selectedColorIndex": "12"
+                            "selectedColorIndex": "2"
                         },
                         {
                             "atomType": "Translate",
@@ -5137,6 +5178,10 @@
                 },
                 {
                     "name": "3D shape 2",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 3",
                     "ioValue": 10
                 }
             ]
@@ -6450,12 +6495,34 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.5284715284715285,
+            "y": 0.8129770992366412,
+            "uniqueID": 495943,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/663505/409754Assembly"
+                },
+                {
+                    "name": "tag",
+                    "ioValue": "Plastic"
+                }
+            ]
+        },
+        {
             "atomType": "Stl",
             "name": "Stl",
             "x": 0.6623376623376623,
             "y": 0.8206106870229009,
             "uniqueID": 896715,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/663505/495943ExtractTag"
+                }
+            ]
         },
         {
             "atomType": "Output",
@@ -6487,6 +6554,13 @@
             "ap2ID": 409754
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 504934,
+            "ap2ID": 409754
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
@@ -6508,11 +6582,25 @@
             "ap2ID": 154167
         },
         {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 516768,
+            "ap2ID": 504934
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "3D shape 3",
             "ap2Primary": false,
             "ap1ID": 409754,
             "ap2ID": 810696
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 409754,
+            "ap2ID": 495943
         },
         {
             "ap1Name": "Geometry",
@@ -6541,6 +6629,13 @@
             "ap2Primary": false,
             "ap1ID": 415182,
             "ap2ID": 937491
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 495943,
+            "ap2ID": 896715
         }
     ],
     "fileTypeVersion": 1,
