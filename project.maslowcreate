@@ -3969,8 +3969,8 @@
         {
             "atomType": "Molecule",
             "name": "Clamping Wedge",
-            "x": 0.5124875124875125,
-            "y": 0.16030534351145037,
+            "x": 0.5024975024975025,
+            "y": 0.15267175572519084,
             "uniqueID": 516768,
             "ioValues": [],
             "topLevel": false,
@@ -4147,29 +4147,12 @@
                 {
                     "atomType": "Molecule",
                     "name": "Cut Away",
-                    "x": 0.32967032967032966,
-                    "y": 0.5419847328244275,
+                    "x": 0.32790224032586557,
+                    "y": 0.5267175572519084,
                     "uniqueID": 286450,
                     "ioValues": [],
                     "topLevel": false,
                     "allAtoms": [
-                        {
-                            "atomType": "Rectangle",
-                            "name": "Rectangle",
-                            "x": 0.05856515373352855,
-                            "y": 0.27862595419847325,
-                            "uniqueID": 519840,
-                            "ioValues": [
-                                {
-                                    "name": "x length",
-                                    "ioValue": 5
-                                },
-                                {
-                                    "name": "y length",
-                                    "ioValue": 67
-                                }
-                            ]
-                        },
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
@@ -4184,6 +4167,48 @@
                                 {
                                     "name": "y length",
                                     "ioValue": 67
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.06293706293706293,
+                            "y": 0.3969465648854962,
+                            "uniqueID": 866197,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 3.5
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 67
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Translate",
+                            "name": "Translate",
+                            "x": 0.14085914085914086,
+                            "y": 0.4236641221374046,
+                            "uniqueID": 545246,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/663505/516768/286450/866197Rectangle"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 9
                                 }
                             ]
                         },
@@ -4266,42 +4291,17 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.036603221083455345,
-                            "y": 0.732824427480916,
-                            "uniqueID": 866197,
+                            "x": 0.07592407592407592,
+                            "y": 0.767175572519084,
+                            "uniqueID": 519840,
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 3
+                                    "ioValue": 5.5
                                 },
                                 {
                                     "name": "y length",
                                     "ioValue": 67
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Translate",
-                            "name": "Translate",
-                            "x": 0.13177159590043924,
-                            "y": 0.7404580152671755,
-                            "uniqueID": 545246,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "atoms/663505/516768/286450/866197Rectangle"
-                                },
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 9
                                 }
                             ]
                         },
@@ -4339,17 +4339,24 @@
                     "allConnectors": [
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "3D shape 2",
-                            "ap2Primary": false,
-                            "ap1ID": 519840,
-                            "ap2ID": 550205
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 939474,
+                            "ap2ID": 575812
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
-                            "ap1ID": 939474,
-                            "ap2ID": 575812
+                            "ap1ID": 866197,
+                            "ap2ID": 545246
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": 545246,
+                            "ap2ID": 550205
                         },
                         {
                             "ap1Name": "geometry",
@@ -4374,16 +4381,9 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 866197,
-                            "ap2ID": 545246
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "3D shape 1",
+                            "ap2Name": "3D shape 2",
                             "ap2Primary": false,
-                            "ap1ID": 545246,
+                            "ap1ID": 519840,
                             "ap2ID": 550205
                         },
                         {
@@ -4483,8 +4483,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bolts",
-                    "x": 0.3916083916083916,
-                    "y": 0.8854961832061068,
+                    "x": 0.38561438561438566,
+                    "y": 0.8816793893129771,
                     "uniqueID": 525931,
                     "ioValues": [],
                     "topLevel": false,
@@ -4517,7 +4517,7 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "M3 Locknut",
-                            "x": 0.06734992679355783,
+                            "x": 0.06293706293706293,
                             "y": 0.3511450381679389,
                             "uniqueID": 592898,
                             "projectID": "278794657",
