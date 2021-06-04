@@ -5574,23 +5574,6 @@
             ]
         },
         {
-            "atomType": "ExtractTag",
-            "name": "Extract Tag",
-            "x": 0.8191808191808192,
-            "y": 0.26717557251908397,
-            "uniqueID": 154167,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "atoms/663505/516768/239500Rotate"
-                },
-                {
-                    "name": "tag",
-                    "ioValue": "Tag String"
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Bolts",
             "x": 0.1281112737920937,
@@ -6762,13 +6745,6 @@
             "ap2Primary": false,
             "ap1ID": 516768,
             "ap2ID": 810696
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 516768,
-            "ap2ID": 154167
         },
         {
             "ap1Name": "Geometry",
