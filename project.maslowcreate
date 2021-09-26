@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Bracing and Outline",
-            "x": 0.10834553440702782,
-            "y": 0.2595419847328244,
+            "x": 0.10395314787701318,
+            "y": 0.22900763358778628,
             "uniqueID": 485073,
             "ioValues": [],
             "topLevel": false,
@@ -74,8 +74,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Cut Away",
-                    "x": 0.541727672035139,
-                    "y": 0.16412213740458015,
+                    "x": 0.5439238653001465,
+                    "y": 0.1717557251908397,
                     "uniqueID": 740278,
                     "ioValues": [],
                     "topLevel": false,
@@ -301,7 +301,7 @@
                                 },
                                 {
                                     "atomType": "Equation",
-                                    "name": "Equation",
+                                    "name": "-L/2",
                                     "x": 0.431185944363104,
                                     "y": 0.7394636015325671,
                                     "uniqueID": 858203,
@@ -493,10 +493,6 @@
                                 },
                                 {
                                     "name": "3D shape 8",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 9",
                                     "ioValue": 10
                                 }
                             ]
@@ -911,13 +907,6 @@
                             "ap2Primary": false,
                             "ap1ID": 952810,
                             "ap2ID": 748736
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "3D shape 9",
-                            "ap2Primary": false,
-                            "ap1ID": 288801,
-                            "ap2ID": 748736
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -926,42 +915,17 @@
                 {
                     "atomType": "Molecule",
                     "name": "Arms",
-                    "x": 0.22477522477522477,
-                    "y": 0.5267175572519084,
+                    "x": 0.2225475841874085,
+                    "y": 0.5305343511450381,
                     "uniqueID": 800487,
                     "ioValues": [],
                     "topLevel": false,
                     "allAtoms": [
                         {
-                            "atomType": "Rotate",
-                            "name": "Rotate",
-                            "x": 0.41288433382137624,
-                            "y": 0.1417624521072797,
-                            "uniqueID": 771477,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "atoms/663505/485073/800487/647437/380206Assembly"
-                                },
-                                {
-                                    "name": "x-axis degrees",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "y-axis degrees",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "z-axis degrees",
-                                    "ioValue": 180
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Molecule",
                             "name": "Bushing Arm",
-                            "x": 0.22035139092240116,
-                            "y": 0.3893129770992366,
+                            "x": 0.21888726207906295,
+                            "y": 0.37404580152671757,
                             "uniqueID": 647437,
                             "ioValues": [],
                             "topLevel": false,
@@ -1237,7 +1201,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 22
+                                            "ioValue": 18
                                         }
                                     ]
                                 },
@@ -1262,7 +1226,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -11
+                                            "ioValue": -9
                                         }
                                     ]
                                 },
@@ -1429,10 +1393,35 @@
                             "simplify": false
                         },
                         {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.41288433382137624,
+                            "y": 0.1417624521072797,
+                            "uniqueID": 771477,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/663505/485073/800487/647437Molecule"
+                                },
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 180
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Molecule",
                             "name": "Nut Arm",
-                            "x": 0.21278721278721277,
-                            "y": 0.6832061068702291,
+                            "x": 0.21156661786237188,
+                            "y": 0.66793893129771,
                             "uniqueID": 388393,
                             "ioValues": [],
                             "topLevel": false,
@@ -1623,7 +1612,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -11
+                                            "ioValue": -9
                                         }
                                     ]
                                 },
@@ -1640,7 +1629,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 22
+                                            "ioValue": 18
                                         }
                                     ]
                                 },
@@ -1857,7 +1846,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "atoms/663505/485073/800487/388393/714635Union"
+                                    "ioValue": "atoms/663505/485073/800487/388393Molecule"
                                 },
                                 {
                                     "name": "x-axis degrees",
@@ -1889,13 +1878,6 @@
                     ],
                     "allConnectors": [
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "3D shape 4",
-                            "ap2Primary": false,
-                            "ap1ID": 771477,
-                            "ap2ID": 793038
-                        },
-                        {
                             "ap1Name": "Geometry",
                             "ap2Name": "3D shape 2",
                             "ap2Primary": false,
@@ -1908,6 +1890,13 @@
                             "ap2Primary": true,
                             "ap1ID": 647437,
                             "ap2ID": 771477
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 4",
+                            "ap2Primary": false,
+                            "ap1ID": 771477,
+                            "ap2ID": 793038
                         },
                         {
                             "ap1Name": "Geometry",
@@ -1950,7 +1939,7 @@
                     "ioValues": [
                         {
                             "name": "geometry2",
-                            "ioValue": "atoms/663505/485073/740278/748736Union"
+                            "ioValue": "atoms/663505/485073/740278Molecule"
                         },
                         {
                             "name": "geometry1",
@@ -1961,8 +1950,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Ring Braces",
-                    "x": 0.2137862137862138,
-                    "y": 0.8206106870229009,
+                    "x": 0.21815519765739386,
+                    "y": 0.8015267175572519,
                     "uniqueID": 730201,
                     "ioValues": [],
                     "topLevel": false,
@@ -1985,7 +1974,7 @@
                                 },
                                 {
                                     "name": "Height",
-                                    "ioValue": 22
+                                    "ioValue": 18
                                 }
                             ],
                             "simplify": false
@@ -2008,7 +1997,7 @@
                                 },
                                 {
                                     "name": "Height",
-                                    "ioValue": 22
+                                    "ioValue": 18
                                 }
                             ],
                             "simplify": false
@@ -2055,7 +2044,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -11
+                                    "ioValue": -9
                                 }
                             ]
                         },
@@ -2077,7 +2066,7 @@
                                 },
                                 {
                                     "name": "Height",
-                                    "ioValue": 26
+                                    "ioValue": 18
                                 }
                             ],
                             "simplify": false
@@ -2188,8 +2177,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Pin and Center Strut Wall",
-                    "x": 0.5658857979502196,
-                    "y": 0.7251908396946565,
+                    "x": 0.5636896046852123,
+                    "y": 0.732824427480916,
                     "uniqueID": 159340,
                     "ioValues": [
                         {
@@ -2241,7 +2230,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 22
+                                    "ioValue": 18
                                 }
                             ]
                         },
@@ -2266,7 +2255,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -11
+                                    "ioValue": -9
                                 }
                             ]
                         },
@@ -3049,7 +3038,7 @@
                     "ioValues": [
                         {
                             "name": "geometry2",
-                            "ioValue": "atoms/663505/516768/286450/398208Group"
+                            "ioValue": "atoms/663505/516768/286450Molecule"
                         },
                         {
                             "name": "geometry1",
@@ -3864,7 +3853,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "atoms/663505/516768/525931/592898/378449Color"
+                                    "ioValue": "atoms/663505/516768/525931/592898GitHubMolecule"
                                 },
                                 {
                                     "name": "xDist",
@@ -3924,7 +3913,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "atoms/663505/516768/525931/818179/691436Add-BOM-Tag"
+                                    "ioValue": "atoms/663505/516768/525931/818179GitHubMolecule"
                                 },
                                 {
                                     "name": "x-axis degrees",
@@ -4576,7 +4565,7 @@
         {
             "atomType": "Molecule",
             "name": "Bushing",
-            "x": 0.1068814055636896,
+            "x": 0.10395314787701318,
             "y": 0.4198473282442748,
             "uniqueID": 692836,
             "ioValues": [],
@@ -5001,7 +4990,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -11
+                            "ioValue": -9
                         }
                     ]
                 },
@@ -5307,7 +5296,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "atoms/663505/516768/239500Rotate"
+                    "ioValue": "atoms/663505/516768Molecule"
                 },
                 {
                     "name": "tag",
@@ -5364,7 +5353,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/663505/536823/802301/901852Union"
+                            "ioValue": "atoms/663505/536823/802301GitHubMolecule"
                         },
                         {
                             "name": "x-axis degrees",
@@ -5576,8 +5565,8 @@
         {
             "atomType": "Molecule",
             "name": "Bolts",
-            "x": 0.1281112737920937,
-            "y": 0.9312977099236641,
+            "x": 0.13982430453879943,
+            "y": 0.8282442748091602,
             "uniqueID": 415182,
             "ioValues": [],
             "topLevel": false,
@@ -5591,7 +5580,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "atoms/663505/415182/275864/858038Union"
+                            "ioValue": "atoms/663505/415182/275864Molecule"
                         },
                         {
                             "name": "x-axis degrees",
@@ -5690,7 +5679,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "atoms/663505/415182/275864/374660/378449Color"
+                                    "ioValue": "atoms/663505/415182/275864/374660GitHubMolecule"
                                 },
                                 {
                                     "name": "xDist",
@@ -5787,8 +5776,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Clamp Together Bolts",
-                    "x": 0.5534407027818448,
-                    "y": 0.3473282442748092,
+                    "x": 0.5563689604685212,
+                    "y": 0.33587786259541985,
                     "uniqueID": 392211,
                     "ioValues": [
                         {
@@ -6319,13 +6308,13 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bearing Clamp Bolts",
-                    "x": 0.5051244509516838,
+                    "x": 0.5065885797950219,
                     "y": 0.7633587786259541,
                     "uniqueID": 694361,
                     "ioValues": [
                         {
                             "name": "Bolt",
-                            "ioValue": "atoms/663505/415182/275864/858038Union"
+                            "ioValue": "atoms/663505/415182/275864Molecule"
                         }
                     ],
                     "topLevel": false,
@@ -6389,7 +6378,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "atoms/663505/415182/275864/858038Union"
+                                    "ioValue": "atoms/663505/415182/275864Molecule"
                                 },
                                 {
                                     "name": "x-axis degrees",
@@ -6482,6 +6471,31 @@
                             ]
                         },
                         {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.8784773060029282,
+                            "y": 0.3511450381679389,
+                            "uniqueID": 871435,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/663505/415182/694361/411089Union"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 2
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Union",
                             "name": "Union",
                             "x": 0.8273866923818708,
@@ -6532,7 +6546,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "atoms/663505/415182/694361/411089Union"
+                                    "ioValue": "atoms/663505/415182/694361/871435Move"
                                 }
                             ]
                         }
@@ -6612,8 +6626,15 @@
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
-                            "ap1ID": 411089,
+                            "ap1ID": 871435,
                             "ap2ID": 110368
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 411089,
+                            "ap2ID": 871435
                         },
                         {
                             "ap1Name": "geometry",
@@ -6635,7 +6656,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "atoms/663505/415182/694361/411089Union"
+                            "ioValue": "atoms/663505/415182/694361Molecule"
                         }
                     ]
                 }
@@ -6707,8 +6728,8 @@
         {
             "atomType": "Stl",
             "name": "Stl",
-            "x": 0.6623376623376623,
-            "y": 0.8206106870229009,
+            "x": 0.6610541727672035,
+            "y": 0.8511450381679388,
             "uniqueID": 896715,
             "ioValues": [
                 {
