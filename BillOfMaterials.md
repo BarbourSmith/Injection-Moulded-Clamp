@@ -2,7 +2,8 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|M3x15mm|4|$0.40|www.example.com|
-|Total: |4|$0.40| |
+|M3x15mm|10|$1.00|www.example.com|
+|5mm Leadscrew Nut|2|$0.60|www.example.com|
+|Total: |12|$1.60| |
 
- 3xCOG MSRP: $1.20
+ 3xCOG MSRP: $4.80
