@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Bracing and Outline",
-            "x": 0.10395314787701318,
-            "y": 0.22900763358778628,
+            "x": 0.09956076134699852,
+            "y": 0.2251908396946565,
             "uniqueID": 485073,
             "ioValues": [],
             "topLevel": false,
@@ -74,7 +74,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Cut Away",
-                    "x": 0.5439238653001465,
+                    "x": 0.54099560761347,
                     "y": 0.1717557251908397,
                     "uniqueID": 740278,
                     "ioValues": [],
@@ -1950,8 +1950,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Ring Braces",
-                    "x": 0.21815519765739386,
-                    "y": 0.8015267175572519,
+                    "x": 0.2232796486090776,
+                    "y": 0.7748091603053435,
                     "uniqueID": 730201,
                     "ioValues": [],
                     "topLevel": false,
@@ -2058,11 +2058,11 @@
                             "ioValues": [
                                 {
                                     "name": "OD",
-                                    "ioValue": 72.75
+                                    "ioValue": 73.75
                                 },
                                 {
                                     "name": "ID",
-                                    "ioValue": 68.75
+                                    "ioValue": 69.5
                                 },
                                 {
                                     "name": "Height",
@@ -5361,7 +5361,7 @@
             "atomType": "Molecule",
             "name": "Leadscrew Nut",
             "x": 0.1273792093704246,
-            "y": 0.5916030534351144,
+            "y": 0.5877862595419847,
             "uniqueID": 536823,
             "ioValues": [],
             "topLevel": false,
@@ -5873,8 +5873,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Shaft Keepout",
-                    "x": 0.18887262079062958,
-                    "y": 0.6106870229007634,
+                    "x": 0.1896046852122987,
+                    "y": 0.5916030534351144,
                     "uniqueID": 257200,
                     "ioValues": [],
                     "topLevel": false,
@@ -5949,7 +5949,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 4
+                                    "ioValue": 6
                                 }
                             ]
                         },
