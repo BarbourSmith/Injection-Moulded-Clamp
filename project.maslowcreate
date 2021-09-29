@@ -6393,7 +6393,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bearing Clamp Bolts",
-                    "x": 0.45021961932650073,
+                    "x": 0.4509516837481698,
                     "y": 0.46183206106870234,
                     "uniqueID": 694361,
                     "ioValues": [
@@ -6450,7 +6450,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 7
+                                    "ioValue": 4
                                 }
                             ]
                         },
@@ -6556,31 +6556,6 @@
                             ]
                         },
                         {
-                            "atomType": "Move",
-                            "name": "Move",
-                            "x": 0.8784773060029282,
-                            "y": 0.3511450381679389,
-                            "uniqueID": 871435,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "atoms/663505/415182/694361/411089Union"
-                                },
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 2
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Rotate",
                             "name": "Rotate",
                             "x": 0.6259150805270864,
@@ -6625,7 +6600,7 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.7430453879941434,
+                            "x": 0.740117130307467,
                             "y": 0.8129770992366412,
                             "uniqueID": 289540,
                             "ioValues": [
@@ -6643,7 +6618,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -15
+                                    "ioValue": -20
                                 }
                             ]
                         },
@@ -6656,7 +6631,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "atoms/663505/415182/694361/871435Move"
+                                    "ioValue": "atoms/663505/415182/694361/411089Union"
                                 }
                             ]
                         }
@@ -6734,13 +6709,6 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 871435,
-                            "ap2ID": 110368
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": 134002,
@@ -6748,10 +6716,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
                             "ap1ID": 411089,
-                            "ap2ID": 871435
+                            "ap2ID": 110368
                         },
                         {
                             "ap1Name": "geometry",
