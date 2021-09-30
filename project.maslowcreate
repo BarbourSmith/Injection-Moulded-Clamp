@@ -340,7 +340,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5.5
+                                    "ioValue": 2.5
                                 }
                             ]
                         },
@@ -2370,6 +2370,31 @@
                     "simplify": false
                 },
                 {
+                    "atomType": "Union",
+                    "name": "Union",
+                    "x": 0.45021961932650073,
+                    "y": 0.46399999999999997,
+                    "uniqueID": 422808,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 5",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Ring Braces",
                     "x": 0.27232796486090777,
@@ -2676,8 +2701,8 @@
                         {
                             "atomType": "Translate",
                             "name": "Translate",
-                            "x": 0.4838945827232796,
-                            "y": 0.268,
+                            "x": 0.5190336749633968,
+                            "y": 0.248,
                             "uniqueID": 879720,
                             "ioValues": [
                                 {
@@ -2694,7 +2719,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -6.5
+                                    "ioValue": 6.5
                                 }
                             ]
                         },
@@ -3037,31 +3062,6 @@
                     "simplify": false
                 },
                 {
-                    "atomType": "Union",
-                    "name": "Union",
-                    "x": 0.47803806734992677,
-                    "y": 0.7633587786259541,
-                    "uniqueID": 422808,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 2",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 3",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 5",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Pin and Center Strut Wall",
                     "x": 0.5636896046852123,
@@ -3357,6 +3357,13 @@
                     "ap2ID": 597571
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 422808,
+                    "ap2ID": 597571
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
@@ -3376,13 +3383,6 @@
                     "ap2Primary": false,
                     "ap1ID": 842915,
                     "ap2ID": 422808
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 422808,
-                    "ap2ID": 597571
                 },
                 {
                     "ap1Name": "geometry",
@@ -4125,23 +4125,6 @@
                     ]
                 },
                 {
-                    "atomType": "Group",
-                    "name": "Group",
-                    "x": 0.6398243045387995,
-                    "y": 0.38167938931297707,
-                    "uniqueID": 791616,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 2",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.5534407027818448,
@@ -4163,6 +4146,23 @@
                         {
                             "name": "zDist",
                             "ioValue": -4.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Group",
+                    "name": "Group",
+                    "x": 0.6383601756954612,
+                    "y": 0.392,
+                    "uniqueID": 791616,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -4200,7 +4200,7 @@
                         },
                         {
                             "name": "y-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 180
                         },
                         {
                             "name": "z-axis degrees",
@@ -4878,17 +4878,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 791616,
-                    "ap2ID": 239500
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 183098,
                     "ap2ID": 791616
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 791616,
+                    "ap2ID": 239500
                 },
                 {
                     "ap1Name": "geometry",
@@ -6806,8 +6806,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bearing Clamp Bolts",
-                    "x": 0.4509516837481698,
-                    "y": 0.46183206106870234,
+                    "x": 0.45021961932650073,
+                    "y": 0.43999999999999995,
                     "uniqueID": 694361,
                     "ioValues": [
                         {
@@ -6863,7 +6863,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 4
+                                    "ioValue": 0.5
                                 }
                             ]
                         },
@@ -7031,7 +7031,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -20
+                                    "ioValue": -27
                                 }
                             ]
                         },
@@ -7204,7 +7204,7 @@
             "ioValues": [
                 {
                     "name": "Shape",
-                    "ioValue": "atoms/663505/810696Group"
+                    "ioValue": 10
                 }
             ],
             "topLevel": false,
@@ -7339,7 +7339,7 @@
                         },
                         {
                             "name": "geometry1",
-                            "ioValue": "atoms/663505/810696Group"
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -7515,13 +7515,6 @@
             "ap2Primary": false,
             "ap1ID": 810696,
             "ap2ID": 706840
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape",
-            "ap2Primary": false,
-            "ap1ID": 810696,
-            "ap2ID": 528125
         },
         {
             "ap1Name": "Geometry",
