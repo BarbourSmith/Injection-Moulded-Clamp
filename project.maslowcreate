@@ -1531,8 +1531,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Cut Away",
-                    "x": 0.54099560761347,
-                    "y": 0.1717557251908397,
+                    "x": 0.5329428989751098,
+                    "y": 0.17938931297709923,
                     "uniqueID": 740278,
                     "ioValues": [],
                     "topLevel": false,
@@ -1951,6 +1951,10 @@
                                 {
                                     "name": "3D shape 8",
                                     "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 9",
+                                    "ioValue": 10
                                 }
                             ]
                         },
@@ -2363,6 +2367,13 @@
                             "ap2Name": "3D shape 7",
                             "ap2Primary": false,
                             "ap1ID": 952810,
+                            "ap2ID": 748736
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "3D shape 9",
+                            "ap2Primary": false,
+                            "ap1ID": 288801,
                             "ap2ID": 748736
                         }
                     ],
@@ -5056,27 +5067,10 @@
             "simplify": false
         },
         {
-            "atomType": "Union",
-            "name": "Union",
-            "x": 0.2759882869692533,
-            "y": 0.32061068702290074,
-            "uniqueID": 150952,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Bushing",
-            "x": 0.0951683748169839,
-            "y": 0.42748091603053434,
+            "x": 0.09370424597364568,
+            "y": 0.41221374045801523,
             "uniqueID": 692836,
             "ioValues": [],
             "topLevel": false,
@@ -5097,8 +5091,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Flanges",
-                    "x": 0.37262079062957537,
-                    "y": 0.18702290076335878,
+                    "x": 0.36383601756954614,
+                    "y": 0.13740458015267176,
                     "uniqueID": 934749,
                     "ioValues": [],
                     "topLevel": false,
@@ -5112,7 +5106,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 10
+                                    "ioValue": 6
                                 },
                                 {
                                     "name": "y length",
@@ -5133,7 +5127,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 23
+                                    "ioValue": 19
                                 },
                                 {
                                     "name": "yDist",
@@ -5653,6 +5647,23 @@
             ],
             "fileTypeVersion": 1,
             "simplify": false
+        },
+        {
+            "atomType": "Union",
+            "name": "Union",
+            "x": 0.2759882869692533,
+            "y": 0.32061068702290074,
+            "uniqueID": 150952,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "ExtractTag",
@@ -7816,18 +7827,18 @@
             "ap2ID": 504934
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 150952,
-            "ap2ID": 409754
-        },
-        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
             "ap1ID": 692836,
             "ap2ID": 150952
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 150952,
+            "ap2ID": 409754
         },
         {
             "ap1Name": "geometry",
