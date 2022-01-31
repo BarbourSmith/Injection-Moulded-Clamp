@@ -6545,27 +6545,10 @@
             "unitsIndex": 0
         },
         {
-            "atomType": "Union",
-            "name": "Union",
-            "x": 0.2452415812591508,
-            "y": 0.3244274809160305,
-            "uniqueID": 150952,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": "source/663505/485073Molecule"
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": "source/663505/692836Molecule"
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Bushing",
-            "x": 0.09370424597364568,
-            "y": 0.41221374045801523,
+            "x": 0.08994708994708996,
+            "y": 0.391025641025641,
             "uniqueID": 692836,
             "ioValues": [],
             "topLevel": false,
@@ -6826,7 +6809,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 39
+                            "ioValue": 45
                         }
                     ]
                 },
@@ -6915,7 +6898,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -33.5
+                            "ioValue": -45
                         }
                     ]
                 },
@@ -7144,6 +7127,23 @@
             "fileTypeVersion": 1,
             "simplify": false,
             "unitsIndex": 0
+        },
+        {
+            "atomType": "Union",
+            "name": "Union",
+            "x": 0.2452415812591508,
+            "y": 0.3244274809160305,
+            "uniqueID": 150952,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": "source/663505/485073Molecule"
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": "source/663505/692836Molecule"
+                }
+            ]
         },
         {
             "atomType": "ExtractTag",
@@ -8400,8 +8400,8 @@
         {
             "atomType": "Molecule",
             "name": "Bolts",
-            "x": 0.14055636896046853,
-            "y": 0.8396946564885496,
+            "x": 0.14285714285714285,
+            "y": 0.8173076923076923,
             "uniqueID": 415182,
             "ioValues": [],
             "topLevel": false,
@@ -8928,6 +8928,31 @@
                     "unitsIndex": 0
                 },
                 {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.7354497354497355,
+                    "y": 0.21794871794871795,
+                    "uniqueID": 858679,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/663505/415182/694361Molecule"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -12
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -8936,7 +8961,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "source/663505/415182/694361Molecule"
+                            "ioValue": "source/663505/415182/858679Move"
                         }
                     ]
                 }
@@ -8951,9 +8976,16 @@
                 },
                 {
                     "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 694361,
+                    "ap2ID": 858679
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 694361,
+                    "ap1ID": 858679,
                     "ap2ID": 200646
                 }
             ],
@@ -9315,18 +9347,18 @@
             "ap2ID": 504934
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 150952,
-            "ap2ID": 409754
-        },
-        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
             "ap1ID": 692836,
             "ap2ID": 150952
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 150952,
+            "ap2ID": 409754
         },
         {
             "ap1Name": "geometry",
