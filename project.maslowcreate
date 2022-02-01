@@ -6833,13 +6833,13 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.11428571428571428,
+                    "x": 0.11375661375661376,
                     "y": 0.4903846153846154,
                     "uniqueID": 438433,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 19
+                            "ioValue": 19.5
                         }
                     ]
                 },
@@ -8587,8 +8587,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bearing Clamp Bolts",
-                    "x": 0.45021961932650073,
-                    "y": 0.43999999999999995,
+                    "x": 0.453042328042328,
+                    "y": 0.4262820512820513,
                     "uniqueID": 694361,
                     "ioValues": [
                         {
@@ -8636,7 +8636,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -119
+                                    "ioValue": -118
                                 },
                                 {
                                     "name": "yDist",
