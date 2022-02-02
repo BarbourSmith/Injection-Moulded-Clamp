@@ -6563,7 +6563,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Bushing",
+            "name": "Linear Bearing",
             "x": 0.09193121693121693,
             "y": 0.41025641025641024,
             "uniqueID": 692836,
@@ -7165,8 +7165,8 @@
         {
             "atomType": "Molecule",
             "name": "Leadscrew Nut",
-            "x": 0.13177159590043924,
-            "y": 0.5801526717557253,
+            "x": 0.13095238095238096,
+            "y": 0.5737179487179488,
             "uniqueID": 536823,
             "ioValues": [],
             "topLevel": false,
@@ -7174,8 +7174,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "5mm Lead Screw Nut",
-                    "x": 0.17496339677891654,
-                    "y": 0.27862595419847325,
+                    "x": 0.16865079365079363,
+                    "y": 0.21153846153846154,
                     "uniqueID": 802301,
                     "projectID": "343855091",
                     "ioValues": [],
@@ -7190,7 +7190,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "source/663505/536823/795525Group"
+                            "ioValue": "source/663505/536823/626378Assembly"
                         },
                         {
                             "name": "x-axis degrees",
@@ -7614,23 +7614,23 @@
                     ]
                 },
                 {
-                    "atomType": "Group",
-                    "name": "Group",
-                    "x": 0.2986822840409956,
-                    "y": 0.4732824427480916,
-                    "uniqueID": 795525,
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.3313492063492064,
+                    "y": 0.40064102564102566,
+                    "uniqueID": 626378,
                     "ioValues": [
                         {
-                            "name": "3D shape 2",
-                            "ioValue": "source/663505/536823/274590Molecule"
-                        },
-                        {
-                            "name": "3D shape 5",
+                            "name": "3D shape 1",
                             "ioValue": "source/663505/536823/257200Molecule"
                         },
                         {
-                            "name": "3D shape 7",
+                            "name": "3D shape 2",
                             "ioValue": "source/663505/536823/802301GitHubMolecule"
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": "source/663505/536823/274590Molecule"
                         }
                     ]
                 },
@@ -8030,6 +8030,13 @@
                     "ap2ID": 795525
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 802301,
+                    "ap2ID": 626378
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -8038,10 +8045,10 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 2",
+                    "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 274590,
-                    "ap2ID": 795525
+                    "ap2ID": 626378
                 },
                 {
                     "ap1Name": "geometry",
@@ -8054,7 +8061,7 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 795525,
+                    "ap1ID": 626378,
                     "ap2ID": 783254
                 },
                 {
@@ -8080,10 +8087,10 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 5",
+                    "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 257200,
-                    "ap2ID": 795525
+                    "ap2ID": 626378
                 },
                 {
                     "ap1Name": "geometry",
